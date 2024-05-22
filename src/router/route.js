@@ -6,7 +6,7 @@ class Router extends Component{
 
   render(){
     return(
-      <BrowserRouter>
+      <BrowserRouter  basename={window.location.pathname || '*'}>
         <Routes>
           <Route path="/" element={<Home/>}/>
         </Routes>
