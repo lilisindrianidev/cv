@@ -1,5 +1,9 @@
 import React from 'react';
 import './../assets/scss/allPage.scss'
+import { Link } from 'react-router-dom';
+import Lilis from '../assets/images/lilis.png'
+
+
 const { Component } = require("react");
 
 class Home extends Component{
@@ -20,8 +24,19 @@ class Home extends Component{
                 <div className='writeM1'> About Me</div>
                 <div className='writeM1'> Education</div>
               </div>
+              <div className='write2_menu1'>
+                <div className='writeM2'> Home</div>
+                <div className='writeM2'> About Me</div>
+                <div className='writeM2'> Education</div>
+              </div>
              
             </div>
+          </div>
+          <div className='cover_me'>
+            <div className='image_me'>
+              <img src={Lilis} className='image_me_url'/>
+            </div>
+            <h1 className='write_me1'> Hi I am Lilis Indriani, I am Web Developer</h1>
           </div>
         </div>
         
