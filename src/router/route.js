@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home  from "../screens/home.js"
+import AllScreens  from "../screens/allScreens.js"
 
 class Router extends Component{
 
@@ -8,7 +8,7 @@ class Router extends Component{
     return(
       <BrowserRouter  basename={window.location.pathname || '*'}>
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<AllScreens/>}/>
         </Routes>
 
       </BrowserRouter>

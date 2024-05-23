@@ -1,11 +1,9 @@
 import React from 'react';
-import './../assets/scss/allPage.scss'
 import { Link } from 'react-router-dom';
 import Lilis from '../assets/images/lilis.png'
 import Logo from '../assets/images/logo.png'
-import AboutMe from './aboutMe.js'
-
 import { Component } from "react";
+
 
 class Home extends Component{
   constructor(props){
@@ -43,7 +41,7 @@ class Home extends Component{
             <h1 className='write_me1'> Hi I am Lilis Indriani, I am Web Developer</h1>
           </div>
         </div>
-        <AboutMe/>
+       
         
       </div>
     )
