@@ -1,6 +1,46 @@
-.skills{
+.skills {
   width: 100%;
   height: 100vh;
-  background-color: rgb(182, 157, 126);
+  background-color: #b49d76;
+  // position: relative;
+  // background-color: rgb(100, 89, 89);
+  // background-image: url(./../images/sB.jpg);
+  background-size: cover;
+  // background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),rgb(184, 134, 11);
+  background: cover;
 
+  .cover_skills {
+    // border-radius: 50%;
+    width: 97%;
+    height: 95vh;
+    border: solid 20px;
+    border-color:#5a3b08;
+    .title_skills{
+      color: #66450f;
+      font-size: 35px;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .wrap_skills {
+      width: 95%;
+      margin: auto;
+
+      .ability {
+         
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .image_wrap_skills{
+          width: 100px;
+          height: 100px;
+          .image_skills{
+            width: 100px;
+            height: 100px;
+          }
+        }
+
+      }
+    }
+  }
 }

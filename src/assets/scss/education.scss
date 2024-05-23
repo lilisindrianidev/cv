@@ -1,8 +1,9 @@
 .education {
-  background-color: rgb(119, 161, 130);
+  //background-color: rgb(119, 161, 130);
   width: 100%;
   height: 100vh;
   border-radius: 30%;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) )rgb(16, 43, 23);
 
   .edu_wrap {
     .edu_title {
@@ -20,7 +21,7 @@
         align-items: center;
         width: 400px;
         height: 400px;
-        background-color: rgb(210, 231, 245);
+        background-color: rgb(155, 207, 186);
         margin: 20px;
         .img_hs {
           align-items: center;
@@ -47,7 +48,7 @@
         // border-radius: 50%;
         width: 400px;
         height: 400px;
-        background-color: rgb(210, 231, 245);
+        background-color: rgb(155, 207, 186);
         margin: 20px;
         .img_uni {
           border-radius: 50%;
