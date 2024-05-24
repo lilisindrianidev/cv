@@ -4,6 +4,10 @@ import AboutMe from './aboutMe.js'
 import Education from './education.js'
 import Skills from './skills.js'
 import Home from './home.js'
+import Framework from './framework.js';
+import Another from './another.js';
+import ContactMe from './contactMe.js';
+import Footer from './footer.js';
 
 class AllSCreens extends Component{
   constructor(props){
@@ -15,7 +19,11 @@ class AllSCreens extends Component{
         <Home/>
         <AboutMe/>
         <Education/>
+        <Framework/>
         <Skills/>
+        <Another/>
+        <ContactMe/>
+        {/* <Footer/> */}
       </div>
     )
   }

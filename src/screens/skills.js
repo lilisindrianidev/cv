@@ -8,33 +8,24 @@ class Skills extends Component {
   render() {
     return (
       <div className="skills">
-        <div className="cover_skills">
-          <div className="title_skills">
-            Skills
-          </div>
+
+        <div className="wrap">
           <div className="wrap_skills">
+            <div className="title_skills">
+              Programming Skills
+            </div>
             <div className="ability">
               <div className="image_wrap_skills">
                 <img src={Java} className="image_skills" />
+                <div className="wrap_ww_skills">
+                  <div className="write_skills">Java</div>
+                  <div className="write_skills2">intermediet</div>
+                </div>
               </div>
-              <div className="image_wrap_skills">
-                <img src={Java} className="image_skills" />
-              </div>
-              <div className="image_wrap_skills">
-                <img src={Java} className="image_skills" />
-              </div>
-              <div className="image_wrap_skills">
-                <img src={Java} className="image_skills" />
-              </div>
-              <div className="image_wrap_skills">
-                <img src={Java} className="image_skills" />
-              </div>
-              <div className="image_wrap_skills">
-                <img src={Java} className="image_skills" />
-              </div>
+             
             </div>
-          </div>
 
+          </div>
         </div>
       </div>
     )

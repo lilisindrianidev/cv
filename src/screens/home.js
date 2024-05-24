@@ -14,7 +14,7 @@ class Home extends Component{
   }
   render(){
     return(
-      <div className="bodyy">
+      
         <div className="home">
           <div className='menu1'>
             <div className='logo'>
@@ -43,7 +43,7 @@ class Home extends Component{
         </div>
        
         
-      </div>
+     
     )
   }
 }
