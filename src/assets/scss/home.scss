@@ -4,12 +4,12 @@
     height: 100vh;
     position: relative;
     object-fit: cover;
-    background-color: rgb(100, 89, 89);
-    background-image: url(./../images/firstB2.png);
+    //  background-color: rgb(255, 255, 255);
+     background-image: url(./../images/pink2.png);
     background-size: cover;
     // top: -40px;
     background: cover;
-
+//  background-image: linear-gradient(to bottom, chocolate ,rgb(207, 126, 67), white);
     .menu1 {
       position: fixed;
       top: 0;
@@ -17,7 +17,7 @@
       // backdrop-filter: blur(20px);
       width: 100%;
       height: 70px;
-      background-color: chocolate;
+      background-color: rgb(17, 20, 66);
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -54,7 +54,7 @@
           .writeM1 {
             padding: 20px;
             align-items: center;
-            color: rgb(255, 255, 255);
+            color: rgb(255, 255, 255)
 
           }
         }
@@ -68,7 +68,7 @@
           .writeM2 {
             padding: 20px;
             align-items: center;
-            color: rgb(255, 255, 255);
+            color: rgb(243, 233, 233);
 
           }
         }
@@ -78,8 +78,9 @@
     .cover_me {
       width: 80%;
       margin: auto;
-      padding-top: 200px;
-
+      padding-top: 200px; 
+      display: flex;
+      flex-wrap: wrap;
       .image_me {
         
         align-items: center;
@@ -88,14 +89,14 @@
         flex-wrap: wrap;
         justify-content: space-between;
         width: 260px;
-        height: 260px;
+        height: 290px;
         // background-color: rgb(97, 92, 50);
-        border-radius: 50% 50% 50% 50%;
-        border: solid rgb(255, 255, 255) 10px;
+        border-radius: 10px;
+        border: solid rgb(0, 0, 0) 40px;
 
         .image_me_url {
           margin: auto;
-          border-radius: 50%;
+          // border-radius: 50%;
           width: 230px;
           max-height: 250px;
 
@@ -104,8 +105,14 @@
 
       .write_me1 {
         text-align: center;
-        font-size: 30px;
-        color: white;
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+        .write_me2 {
+          text-align: center;
+          font-size: 30px;
+          color: rgb(255, 255, 255);
+        }
       }
+      
     }
   }

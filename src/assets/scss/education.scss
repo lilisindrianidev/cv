@@ -5,7 +5,7 @@
   height: 100vh;
   border-radius: 30% 30% 0 0;
   // background-color: rgb(100, 89, 89);
-  background-image: url(./../images/polka.png);
+  background-image: url(./../images/polka2.png);
    background-size: cover;
   // background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),rgb(184, 134, 11);
   background: cover;
@@ -24,10 +24,11 @@
       flex-wrap: wrap; 
       justify-content: center;
       .cover_edu_img_hs {
+        border-radius: 15px;
         align-items: center;
         width: 400px;
         height: 400px;
-        background-color: rgb(245, 196, 91);
+        background-color: rgb(255, 255, 255);
         margin: 20px;
         .img_hs {
           align-items: center;
@@ -51,10 +52,10 @@
       }
 
       .cover_edu_img_uni {
-        // border-radius: 50%;
+        border-radius: 15px;
         width: 400px;
         height: 400px;
-        background-color: rgb(168, 248, 114);
+        background-color: rgb(255, 255, 255);
         margin: 20px;
         .img_uni {
           border-radius: 50%;

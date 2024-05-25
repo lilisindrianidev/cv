@@ -8,6 +8,7 @@ import Framework from './framework.js';
 import Another from './another.js';
 import ContactMe from './contactMe.js';
 import Footer from './footer.js';
+import ToolSkills from './toolsSkills.js';
 
 class AllSCreens extends Component{
   constructor(props){
@@ -21,6 +22,7 @@ class AllSCreens extends Component{
         <Education/>
         <Framework/>
         <Skills/>
+        <ToolSkills/>
         <Another/>
         <ContactMe/>
         {/* <Footer/> */}
