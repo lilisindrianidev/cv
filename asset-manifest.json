@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.2f812236.css",
-    "main.js": "/cv/static/js/main.5a2b709f.js",
+    "main.css": "/cv/static/css/main.069d2702.css",
+    "main.js": "/cv/static/js/main.edee9581.js",
     "static/js/453.007c131c.chunk.js": "/cv/static/js/453.007c131c.chunk.js",
     "static/media/hs.png": "/cv/static/media/hs.ae14edaae82eb62bbbff.png",
     "static/media/lilis.png": "/cv/static/media/lilis.f63b75aca3eebf65d635.png",
@@ -10,16 +10,21 @@
     "static/media/girl1.png": "/cv/static/media/girl1.ec83c7a49101ea585e79.png",
     "static/media/pink2.png": "/cv/static/media/pink2.082353f08b789af0f835.png",
     "static/media/polka2.png": "/cv/static/media/polka2.f2ee69b9f20f8cc6075f.png",
+    "static/media/4.JPG": "/cv/static/media/4.b9382106349782f81080.JPG",
     "static/media/krita.png": "/cv/static/media/krita.7c3672b0f4e0e294c5f7.png",
+    "static/media/3.JPG": "/cv/static/media/3.ed1beaa7e35872012cb0.JPG",
     "static/media/php.png": "/cv/static/media/php.6818a489cf7a785c8681.png",
+    "static/media/1.JPG": "/cv/static/media/1.9e6f091653644f0fde9e.JPG",
     "static/media/vs.png": "/cv/static/media/vs.332d9b7dc873badbbcba.png",
     "static/media/instagram.png": "/cv/static/media/instagram.046af6041ae1fffdc4a7.png",
     "static/media/sass.png": "/cv/static/media/sass.a2591e27bc692562995c.png",
+    "static/media/2.JPG": "/cv/static/media/2.35a58f53cdca8f25f7f0.JPG",
     "static/media/whatsapp.png": "/cv/static/media/whatsapp.4ba01ee1516f9a3736f4.png",
     "static/media/gimp.png": "/cv/static/media/gimp.352ce57dc39a3eb7947a.png",
     "static/media/developer.png": "/cv/static/media/developer.ede8647ab426d6f81586.png",
     "static/media/css.png": "/cv/static/media/css.9407ad358cdb22b8b1f0.png",
     "static/media/programing.png": "/cv/static/media/programing.df70b4411999639b4e01.png",
+    "static/media/telegram.png": "/cv/static/media/telegram.927e9ae76c669227fc69.png",
     "static/media/uni.png": "/cv/static/media/uni.ef51b9a9441a8de3793f.png",
     "static/media/java.jpg": "/cv/static/media/java.1585f50a82dcd6784089.jpg",
     "static/media/react.png": "/cv/static/media/react.20adfb35ae6a6e5817bf.png",
@@ -27,13 +32,14 @@
     "static/media/mysql.png": "/cv/static/media/mysql.97dcf359dd133fed966c.png",
     "static/media/ai.png": "/cv/static/media/ai.1e291f398b7735398d42.png",
     "static/media/facebook.png": "/cv/static/media/facebook.58f707c25084b765cf5e.png",
+    "static/media/address.png": "/cv/static/media/address.be246e4b68a2c5600276.png",
     "index.html": "/cv/index.html",
-    "main.2f812236.css.map": "/cv/static/css/main.2f812236.css.map",
-    "main.5a2b709f.js.map": "/cv/static/js/main.5a2b709f.js.map",
+    "main.069d2702.css.map": "/cv/static/css/main.069d2702.css.map",
+    "main.edee9581.js.map": "/cv/static/js/main.edee9581.js.map",
     "453.007c131c.chunk.js.map": "/cv/static/js/453.007c131c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f812236.css",
-    "static/js/main.5a2b709f.js"
+    "static/css/main.069d2702.css",
+    "static/js/main.edee9581.js"
   ]
 }
