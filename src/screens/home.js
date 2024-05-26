@@ -15,21 +15,24 @@ class Home extends Component {
   render() {
     return (
 
-      <div className="home">
+      <div id="home" className="home">
         <div className='menu1'>
           <div className='logo'>
             <img src={Logo} className='logo_img' />
           </div>
+         
           <div className='cover_menu1'>
             <div className='write1_menu1'>
-              <div className='writeM1'> Home</div>
-              <div className='writeM1'> About Me</div>
-              <div className='writeM1'> Education</div>
+              <a href="#home" className='writeM1'> Home</a>
+              <a href="#Ame" className='writeM1'> About Me</a>
+              <a href="#Edu" className='writeM1'> Education</a>
+              <a href="#Cme" className='writeM1'> Contact Me</a>
             </div>
             <div className='write2_menu1'>
-              <div className='writeM2'> Home</div>
-              <div className='writeM2'> About Me</div>
-              <div className='writeM2'> Education</div>
+              {/* <a href="#FL" className='writeM2'> </a> */}
+              <a href="#Project" className='writeM2'> Project</a>
+              <a href="#skills" className='writeM2'> Skills</a>
+            
             </div>
 
           </div>

@@ -12,7 +12,7 @@ class AboutMe extends Component {
   }
   render() {
     return (
-      <div className="aboutMe">
+      <div id="Ame" className="aboutMe">
 
         <div className="cover_aboutMe">
           <div className="title_aboutMe">About Me </div>

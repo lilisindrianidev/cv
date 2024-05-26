@@ -9,6 +9,7 @@ import Another from './another.js';
 import ContactMe from './contactMe.js';
 import Footer from './footer.js';
 import ToolSkills from './toolsSkills.js';
+import Project from './project.js';
 
 class AllSCreens extends Component{
   constructor(props){
@@ -16,16 +17,17 @@ class AllSCreens extends Component{
   }
   render(){
     return(
-      <div>
+      <div >
         <Home/>
         <AboutMe/>
         <Education/>
         <Framework/>
         <Skills/>
         <ToolSkills/>
-        <Another/>
+        <Project/>
+        {/* <Another/> */}
         <ContactMe/>
-        {/* <Footer/> */}
+        <Footer/>
       </div>
     )
   }

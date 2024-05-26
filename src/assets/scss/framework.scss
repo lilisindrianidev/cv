@@ -82,6 +82,11 @@
             color: rgb(204, 199, 235)
           }
         }
+        &:hover{
+          background-color: rgb(116, 89, 89);
+          color: rgb(43, 31, 31);
+          filter: brightness(10%);
+        }
       }
 
     }

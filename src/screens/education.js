@@ -9,7 +9,7 @@ class Education extends Component {
   }
   render() {
     return (
-      <div className="education">
+      <div id="Edu" className="education">
         <div className="edu_wrap">
           <div className="edu_title">
             Education

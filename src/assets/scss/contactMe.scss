@@ -1,59 +1,66 @@
-.contactMe{
+.contactMe {
   // border-radius: 100px;
-  background-color: rgb(129, 162, 168);
+  background-color: rgb(255, 255, 255);
   width: 100%;
   height: 70vh;
-   
+
   // background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),rgb(184, 134, 11);
   background: cover;
-  .wrap_contact{
+
+  .wrap_contact {
     // width: 70%;
     margin: auto;
-    .title_contact{
+
+    .title_contact {
       color: #4d1909;
       font-size: 35px;
       padding: 20px;
       text-align: center;
       font-weight: bold;
     }
+
     .social_media {
       margin-top: 80px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      .write_social {
-        color: white;
-        font-size: 20px;
+      background: linear-gradient(white, rgb(0, 0, 0), white);
 
+      .write_social {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
       }
-     
-        .media_img {
-          margin: 40px;
-          width: 80px;
-          height: 80px;
-          // width: 32px;
-          aspect-ratio: auto 32 / 32;
-          // height: 32px;
-          overflow-clip-margin: content-box;
-          overflow: clip;
-          filter: grayscale(100%);
-        
-          
-          img {
-            background-color: red;
-          }
-         
-          &:hover {
-            filter: brightness(120%);
-            width: 120px;
-            height:120px;
-            filter: grayscale(100%);
-          }
+
+      .media_img {
+        margin: 40px;
+        width: 80px;
+        height: 80px;
+        // width: 32px;
+        aspect-ratio: auto 32 / 32;
+        // height: 32px;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        filter: grayscale(100%);
+
+
+        img {
+          background-color: red;
         }
+
+        &:hover {
+          filter: brightness(120%);
+          width: 120px;
+          height: 120px;
+          filter: grayscale(100%);
+        }
+      }
+
       // }
 
     }
   }
 
-  
+
 }
