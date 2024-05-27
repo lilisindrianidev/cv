@@ -8,37 +8,40 @@
     // background-image: url(./../images/bgt.jpg);
 
   .cover_frame{
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
     
     .title_frame{
-      color: #4d1909;
+      color: #000000;
       font-size: 35px;
-      padding: 20px;
-      text-align: center;
+      padding: 70px;
+      width: 700px;
+      // text-align: center;
       font-weight: bold;
      
     }
     
     .frame {
+      width: 60%;
       display: flex;
       flex-wrap: wrap;
+      float: right;
       // justify-content: center;
       .frame_image1{
         border-radius: 50%;
-        width: 400px;
-        height: 400px;
-      margin: auto;
+        width: 300px;
+        height: 300px;
+        margin: auto;
         .image1{
           border: solid 7px #ff7b00;;
           border-radius: 50%;
-          width: 400px;
-          height: 400px;
+          width: 200px;
+          height: 200px;
         }
         .triangle-left {
           position: absolute;
-          margin-left: -95px;
-          margin-top: -250px;
+          margin-left: -90px;
+          margin-top: -150px;
           width: 0;
           height: 0;
           border-top: 30px solid transparent;
@@ -47,8 +50,8 @@
         }
         .triangle-right {
           position: absolute;
-          margin-left: 406px;
-          margin-top: -245px;
+          margin-left: 206px;
+          margin-top: -150px;
           width: 0;
           height: 0;
           border-top: 30px solid transparent;
@@ -61,8 +64,8 @@
         margin: auto;
         border: solid 4px black;
         background-color: rgb(51, 59, 102);
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         align-items: center;
         .image_frame {
           align-items: center;

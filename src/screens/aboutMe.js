@@ -1,6 +1,6 @@
 import { Component } from "react";
 import BookMe from '../assets/images/book.png'
-import Me from '../assets/images/girl1.png'
+import Me from '../assets/images/girl2.png'
 
 
 class AboutMe extends Component {
@@ -15,7 +15,7 @@ class AboutMe extends Component {
       <div id="Ame" className="aboutMe">
 
         <div className="cover_aboutMe">
-          <div className="title_aboutMe">About Me </div>
+          <div className="title_aboutMe">Get to know more About Me... </div>
           <div className="cover_aboutme2">
             <div className="cover_write_aboutMe">
               <div className="write_aboutMe">

@@ -11,7 +11,7 @@ class Framework extends Component {
     return (
       <div className="framework">
         <div className="cover_frame">
-          <div className="title_frame"> Framework And Library Skills</div>
+          <div className="title_frame"> This is the Framework and Library I used to do for my pogramming..</div>
 
           <div className="frame">
             <div className="image_wrap_frame">

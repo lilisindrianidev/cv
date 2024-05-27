@@ -12,7 +12,7 @@ class Education extends Component {
       <div id="Edu" className="education">
         <div className="edu_wrap">
           <div className="edu_title">
-            Education
+            Look at my education stories
           </div>
           <div className="cover_img_edu">
             <div className="cover_edu_img_hs">

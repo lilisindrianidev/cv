@@ -1,6 +1,8 @@
 .project {
   width: 100%;
-  height: 60vh;
+  min-height: 60vh;
+  // background-color: #495467;
+  background: linear-gradient(white, #495467);
  
   .cover_pro {
     
@@ -15,7 +17,7 @@
     }
 
     .cover_inside_pro {
-      background: linear-gradient(white, rgb(3, 12, 5), white);
+      
 
       display: flex;
       flex-wrap: wrap;

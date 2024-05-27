@@ -2,26 +2,20 @@
   .wrap {
     width: 100%;
     min-height: 100vh;
-    // position: static;
-    // object-fit: cover;
-    // background-size: cover;
-    // background: cover;
-    // background-image: url(./../images/orange.png);
-
-
+   
 
     .wrap_skills {
-      padding: 20px;
-      width: 90%;
+      // padding: 20px;
+      width: 100%;
       margin: auto;
       // background-color: rgb(162, 182, 89);
       border-radius: 15px;
 
       .title_skills {
-        color: #4d1909;
+        color: #000000;
         font-size: 35px;
         padding: 20px;
-        text-align: center;
+        // text-align: center;
         font-weight: bold;
         margin-bottom: 80px;
       }
@@ -33,10 +27,13 @@
         justify-content: space-between;
 
         .programming {
-          width: 40%;
-          height: 100%;
-
+          margin: auto;
+          width: 50%;
+          min-height: 100vh;
+          background-color: white;
+          // filter: contrast(0%) brightness(2);
           .iage_pro {
+            margin: auto;
             width: 40%;
             height: 100px;
           }
@@ -44,43 +41,45 @@
         }
 
         .image_wrap_skills {
-         
+          // background-color: #8b97aa;
+          border-radius: 15%;
           width: 50%;
+          
           max-height: 100%;
           padding-bottom: 20px;
-          display: flex;
-          flex-wrap: wrap;
+         
           // background-color: rgb(255, 255, 255);
           // margin: 20px;
           // border-radius: 15px;
           // justify-content: flex-start;
 
           .tools_cover_skills {
-            // background-color: rgb(253, 212, 164);
+            display: flex;
+            flex-wrap: wrap;
             margin: auto;
-            width: 100px;
+            min-width: 300px;
             padding: 20px;
-            filter: brightness(70%);
-            
-            border: solid 9px rgb(59, 20, 20);
-            width: 100px;
-            min-height: 100px;
+            // filter: brightness(70%);
+            border-radius: 50px 0 0 50px;
+            // border: solid 9px rgb(59, 20, 20);
+            width: 100%;
+            min-height: 70px;
 
             .image_cover_skills {
 
-              // height: 100px;
+              // filter: grayscale(100%);
 
               .image_skills {
-                width: 100px;
+                width: 70px;
 
               }
             }
 
             .wrap_ww_skills {
-           
+              margin-left: 20px;
 
               .write_skills {
-                text-align: center;
+                font-weight: bold;
                 font-size: 20px;
                 color: rgb(0, 0, 0);
               }
@@ -92,8 +91,8 @@
               }
             }
             &:hover{
-              background-color: rgb(180, 189, 255);
-              color: rgb(43, 31, 31);
+              background-color: rgb(45, 56, 85);
+              color: rgb(255, 255, 255);
               filter: brightness(100%);
             }
 

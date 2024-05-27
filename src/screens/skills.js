@@ -18,7 +18,7 @@ class Skills extends Component {
         <div className="wrap">
           <div className="wrap_skills">
             <div className="title_skills">
-              Programming Skills
+              Check up my Programming Skills...
             </div>
             <div className="ability">
 
