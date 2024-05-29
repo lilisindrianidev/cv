@@ -18,25 +18,32 @@ class Skills extends Component {
         <div className="wrap">
           <div className="wrap_skills">
             <div className="title_skills">
-              Check up my Programming Skills...
+              Programming skills
+              <div className="title_skills_small">
+                Check up my Programming Skills
+                djfkgskhwjshfd
+                sdjhfsjs
+                ksdjhdsjkf
+                jkdfdxk
+              </div>
             </div>
             <div className="ability">
 
-              <div className="programming">
+              {/* <div className="programming">
                 <img src={Pro} className="image_pro"/>
 
-              </div>
+              </div> */}
               <div className="image_wrap_skills">
-                <div className="tools_cover_skills">
-                  <div className="image_cover_skills">
-                    <img src={Java} className="image_skills" />
+                <div className="tools_cover_skills_pink">
+                  <div className="image_cover_skills2">
+                    <img src={Java} className="image_skills2" />
                   </div>
-                  <div className="wrap_ww_skills">
-                    <div className="write_skills">Java</div>
-                    <div className="write_skills2">intermediet</div>
+                  <div className="wrap_ww_skills2">
+                    <div className="write_skills2">Java</div>
+                    <div className="write_skills22">intermediet</div>
                   </div>
                 </div>
-                <div className="tools_cover_skills">
+                <div className="tools_cover_skills_blue">
                   <div className="image_cover_skills">
                     <img src={Js} className="image_skills" />
                   </div>
@@ -48,18 +55,18 @@ class Skills extends Component {
 
 
 
-                <div className="tools_cover_skills">
-                  <div className="image_cover_skills">
-                    <img src={Sass} className="image_skills" />
+                <div className="tools_cover_skills_pink">
+                  <div className="image_cover_skills2">
+                    <img src={Sass} className="image_skills2" />
                   </div>
-                  <div className="wrap_ww_skills">
-                    <div className="write_skills">SASS</div>
-                    <div className="write_skills2">Expert</div>
+                  <div className="wrap_ww_skills2">
+                    <div className="write_skills2">SASS</div>
+                    <div className="write_skills22">Expert</div>
                   </div>
                 </div>
 
 
-                <div className="tools_cover_skills">
+                <div className="tools_cover_skills_blue">
                   <div className="image_cover_skills">
                     <img src={Css} className="image_skills" />
                   </div>
@@ -70,18 +77,18 @@ class Skills extends Component {
                 </div>
 
 
-                <div className="tools_cover_skills">
-                  <div className="image_cover_skills">
-                    <img src={Mysql} className="image_skills" />
+                <div className="tools_cover_skills_pink">
+                  <div className="image_cover_skills2">
+                    <img src={Mysql} className="image_skills2" />
                   </div>
-                  <div className="wrap_ww_skills">
-                    <div className="write_skills">MySql</div>
-                    <div className="write_skills2">Expert</div>
+                  <div className="wrap_ww_skills2">
+                    <div className="write_skills2">MySql</div>
+                    <div className="write_skills22">Expert</div>
                   </div>
                 </div>
 
 
-                <div className="tools_cover_skills">
+                <div className="tools_cover_skills_blue">
                   <div className="image_cover_skills">
                     <img src={Php} className="image_skills" />
                   </div>

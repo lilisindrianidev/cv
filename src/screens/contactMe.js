@@ -9,32 +9,31 @@ class ContactMe extends Component{
   render(){
     return(
       <div id="Cme" className="contactMe">
-        <div className="wrap_contact">
-          <div className="title_contact">Contact Me</div>
+       
           <div className="social_media">
             <div className="write_social">
               <img src={Fb} className="media_img"/>
-              <div className="write_social"> Facebook</div>
+              {/* <div className="write_social"> Facebook</div> */}
             </div>
             <div className="write_social">
               <img src={Wa} className="media_img"/>
-              <div className="write_social">WhatsApp</div>
+              {/* <div className="write_social">WhatsApp</div> */}
             </div>
            
             <div className="write_social">
               <img src={Tel} className="media_img"/>
-              <div className="write_social">Telephone</div>
+              {/* <div className="write_social">Telephone</div> */}
             </div>
             <div className="write_social">
               <img src={Ig} className="media_img"/>
-              <div className="write_social">Instagram</div>
+              {/* <div className="write_social">Instagram</div> */}
             </div>
             <div className="write_social">
               <img src={Li} className="media_img"/>
-              <div className="write_social">LinkedIn</div>
+              {/* <div className="write_social">LinkedIn</div> */}
             </div>
           </div>
-        </div>
+       
       </div>
     )
   }
