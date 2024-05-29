@@ -31,30 +31,30 @@ class ToolSkills extends Component {
               <div className="wrap_image_tools3">
                 <img src={Vc} className="image_tools3" />
                 <div className="wrap_ww_tools3">
-                  <div className="write_tools3">TextPad</div>
-                  <div className="write_tools23 ">Beginner</div>
-                </div>
+                <div className="write_tools3">TextPad</div>
+                <div className="write_tools23 ">Beginner</div>
               </div>
-
+              </div>
+              
             </div>
             <div className="wrap_tools_part_yellow">
               <div className="wrap_image_tools1">
                 <img src={Ai} className="image_tools1" />
                 <div className="wrap_ww_tools1">
-                  <div className="write_tools1">Git</div>
-                  <div className="write_tools21 ">Expert</div>
-                </div>
+                <div className="write_tools1">Git</div>
+                <div className="write_tools21 ">Expert</div>
               </div>
-
+              </div>
+              
             </div>
             < div className="wrap_tools_part_blue" color="yellow">
               {/* <Color color="yellow"> hellooo</Color> */}
               <div className="wrap_image_tools2">
                 <img src={Gimp} className="image_tools2" />
                 <div className="wrap_ww_tools2">
-                  <div className="write_tools2">Gimp</div>
-                  <div className="write_tools22 ">Intermediet</div>
-                </div>
+                <div className="write_tools2">Gimp</div>
+                <div className="write_tools22 ">Intermediet</div>
+              </div>
               </div>
             </div>
 
@@ -63,31 +63,31 @@ class ToolSkills extends Component {
               <div className="wrap_image_tools3">
                 <img src={Krita} className="image_tools3" />
                 <div className="wrap_ww_tools3">
-                  <div className="write_tools3">GitHub</div>
-                  <div className="write_tools23 ">Expert</div>
-                </div>
+                <div className="write_tools3">GitHub</div>
+                <div className="write_tools23 ">Expert</div>
               </div>
-
+              </div>
+              
             </div>
             <div className="wrap_tools_part_yellow">
               <div className="wrap_image_tools1">
                 <img src={Tp} className="image_tools1" />
                 <div className="wrap_ww_tools1">
-                  <div className="write_tools1">TextPad</div>
-                  <div className="write_tools21">Beginner</div>
-                </div>
+                <div className="write_tools1">TextPad</div>
+                <div className="write_tools21">Beginner</div>
               </div>
-
+              </div>
+              
             </div>
             <div className="wrap_tools_part_grey">
               <div className="wrap_image_tools3">
                 <img src={Git} className="image_tools3" />
                 <div className="wrap_ww_tools3">
-                  <div className="write_tools3">Git</div>
-                  <div className="write_tools23 ">Expert</div>
-                </div>
+                <div className="write_tools3">Git</div>
+                <div className="write_tools23 ">Expert</div>
               </div>
-
+              </div>
+              
             </div>
             <div className="wrap_tools_part_blue">
               <div className="wrap_image_tools2">
