@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Lilis from '../assets/images/lilis.png'
+import Lilis from '../assets/images/lilis2.png'
 import Logo from '../assets/images/logo.png'
 import { Component } from "react";
 import Girl2 from '../assets/images/girl2.png'
@@ -17,8 +17,7 @@ class Home extends Component {
     return (
 
       <div id="home" className="home">
-        <div className='home_cover'>
-          <div className='menu1'>
+        <div className='menu1'>
             <div className='logo'>
               <img src={Logo} className='logo_img' />
             </div>
@@ -39,29 +38,39 @@ class Home extends Component {
 
             </div>
           </div>
-          <Contact />
+        <div className='home_cover'>
+          
+          {/* <Contact /> */}
           <div className='cover_me'>
-            <div className='image_me'>
-              <img src={Lilis} className='image_me_url' />
-              <div className='wrap_img_write'>
-                <div className='img_write'>Hello</div>
-              </div>
-              <div className='wrap_img_write2'>
-                <div className='img_write2'>Hello</div>
-              </div>
-              <div className='wrap_img_write3'>
+            <div className='write_me'> 
+              <div className='write_me1'> Hi I am </div>
+              <div className='write_me1'> Lilis Indriani</div>
+              <div className='write_me2'> I am Web Developer</div>
+              <div className='kotak'></div>
+            </div>
+            <div className='cover_image_me'>
+              <div className='image_me'>
+                <img src={Lilis} className='image_me_url' />
+                <div className='wrap_img_write'>
                 <img src={Girl2} className='img_inside_write' />
-                <div className='img_write3'>Hello</div>
+                  <div className='img_write'>Hello</div>
+                </div>
+                <div className='wrap_img_write2'>
+                <img src={Girl2} className='img_inside_write2' />
+                  <div className='img_write2'>Hello</div>
+                </div>
+                <div className='wrap_img_write3'>
+                  <img src={Girl2} className='img_inside_write3' />
+                  <div className='img_write3'>Creative</div>
+                </div>
+              </div>
+              <div className='image_me_write'>
+                <div className='write_image_me'>hello guys hello guys this is me, and and and anad a</div>
               </div>
             </div>
-            <h1 className='write_me1'> Hi I am Lilis Indriani
-
-              <div className='write_me2'> I am Web Developer</div>
-
-            </h1>
           </div>
 
-        </div>
+        
         <div className='cover'>
           < div className="blue">
             {/* <Color color="yellow"> hellooo</Color> */}
@@ -69,7 +78,7 @@ class Home extends Component {
               {/* <img src={Gimp} className="image_tools2" /> */}
               <div className="wrap_ww_tools2">
                 <div className="write_tools2">Creative</div>
-                <div className="write_tools22 ">hdsjfhds sdkjgsdk sdkhfds sdghdsk dszfkh</div>
+                <div className="write_tools22 ">i am creative because i am able to bring you to my home</div>
               </div>
             </div>
           </div>
@@ -79,7 +88,7 @@ class Home extends Component {
               {/* <img src={Gimp} className="image_tools2" /> */}
               <div className="wrap_ww_grey">
                 <div className="write_grey">Critical thinker</div>
-                <div className="write_grey2 ">sjkfnsd sdkfjhds sdzkfhsd sdzjfh</div>
+                <div className="write_grey2 ">i am critical thinker because i am able to bring you to my home</div>
               </div>
             </div>
           </div>
@@ -89,7 +98,7 @@ class Home extends Component {
               {/* <img src={Gimp} className="image_tools2" /> */}
               <div className="wrap_ww_yellow">
                 <div className="write_yellow">work on team</div>
-                <div className="write_yellow2 ">sfjskdf sdkjfs dsfosdf dsxjgfsdo dsgosjg dsj</div>
+                <div className="write_yellow2 ">i i used to work on team i am able to bring you to my home</div>
               </div>
             </div>
           </div>
@@ -106,7 +115,7 @@ class Home extends Component {
         </div>
 
       </div>
-
+      </div>
 
 
     )
