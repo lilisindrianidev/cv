@@ -14,9 +14,9 @@ class Project extends Component {
             <div className="cover_inside_pro2">
               <div className="cover_pro_image">
                 <img src={Desa} className="pro_image" />
-                <div className="cover_pro_write">
-                  <div className="pro_write">Tanggeran Vilage Correspondence</div>
-                  <div className="pro_write2"> ReactJs,  MySql, SCSS, Laravel</div>
+                <div className="pro_img_write">
+                  Tanggeran Vilage Correspondence
+                  (ReactJs, SCSS, Laravel, MySql)
                 </div>
               </div>
               <div className="cover_pro_write">
@@ -26,10 +26,14 @@ class Project extends Component {
             <div className="cover_inside_pro2">
               <div className="cover_pro_image">
                 <img src={Desty} className="pro_image" />
-                <div className="cover_pro_write">
+                <div className="pro_img_write">
+                  Desty
+                  (ReactJs, SCSS)
+                </div>
+                {/* <div className="cover_pro_write">
                   <div className="pro_write">Desty</div>
                   <div className="pro_write2">ReactJs,SCSS</div>
-                </div>
+                </div> */}
               </div>
               <div className="cover_pro_write">
                 <div className="pro_write"></div>
@@ -38,9 +42,8 @@ class Project extends Component {
             <div className="cover_inside_pro2">
               <div className="cover_pro_image">
                 <img src={Godot} className="pro_image" />
-                <div className="cover_pro_write">
-                  <div className="pro_write">Godot</div>
-                  <div className="pro_write2"> ReactJs, SCSS</div>
+                <div className="pro_img_write">
+                  Godot (ReactJs, SCSS)
                 </div>
               </div>
               <div className="cover_pro_write">
@@ -50,9 +53,8 @@ class Project extends Component {
             <div className="cover_inside_pro2">
               <div className="cover_pro_image">
                 <img src={Market} className="pro_image" />
-                <div className="cover_pro_write">
-                  <div className="pro_write">Tanggeran Vilage Correspondence</div>
-                  <div className="pro_write2"> ReactJs,  Node.js, MySql, SCSS</div>
+                <div className="pro_img_write">
+                  Market (ReactJs, SCSS, node.js)
                 </div>
               </div>
               <div className="cover_pro_write">

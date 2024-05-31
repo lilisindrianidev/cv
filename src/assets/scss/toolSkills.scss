@@ -1,6 +1,6 @@
 .tools {
   width: 100%;
-  min-height: 60vh;
+  min-height: 80vh;
   // background-color: #7d889c;
 
   .cover_tools {
@@ -14,15 +14,16 @@
         color: #000000;
         font-size: 50px;
         padding: 20px;
-        // text-align: center;
+        text-align: center;
         font-weight: bold;
+        margin: auto;
         // margin-bottom: 80px;
         .title_tools_small {
           font-weight: lighter;
           color: #000000;
           font-size: 20px;
           padding-left: 20px;
-          // text-align: center;
+          text-align: center;
           // font-weight: bold;
           
         }
@@ -53,7 +54,7 @@
 
         // margin: 30px;
         .wrap_image_tools2 {
-          background-color: #039BE5;
+          background-color: #29B6F6;
           align-items: center;
           
           // border-radius: 50%;
@@ -96,7 +97,7 @@
 
         // margin: 30px;
         .wrap_image_tools1 {
-          background-color: #FFA000;
+          background-color: #F1C40F;
           align-items: center;
           
           // border-radius: 50%;

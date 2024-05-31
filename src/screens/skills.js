@@ -20,11 +20,7 @@ class Skills extends Component {
             <div className="title_skills">
               Programming skills
               <div className="title_skills_small">
-                Check up my Programming Skills
-                djfkgskhwjshfd
-                sdjhfsjs
-                ksdjhdsjkf
-                jkdfdxk
+                I've been learned some of programming languages and implemented it to some of applications I made
               </div>
             </div>
             <div className="ability">

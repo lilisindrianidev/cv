@@ -9,7 +9,7 @@ class ContactMe extends Component{
   render(){
     return(
       <div id="Cme" className="contactMe">
-       
+          <div className="title_contact">Contact me</div>
           <div className="social_media">
             <div className="write_social">
               <img src={Fb} className="media_img"/>

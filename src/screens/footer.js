@@ -8,9 +8,9 @@ class Footer extends Component {
     return (
       <div className="footer" >
         <div className="cover_footer">
-
+        <div className="write_add"> Address:</div>
           <div className="address">
-            <h3 className="write_add"> Address:</h3>
+            
             <div className="wrap_img_add">
               <div className="second_wrap">
                 <img src={Address} className="add_img" />

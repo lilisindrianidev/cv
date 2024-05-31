@@ -112,35 +112,68 @@
       padding-top: 30px;
       display: flex;
       flex-wrap: wrap;
-      padding-bottom: 1dvh;
+      padding-bottom: 30px;
 
 
       .write_me {
         width: 50%;
-        padding-top: 10px;
+        // padding-top: 10px;
         margin: auto;
         // text-align: center;
 
+        .button_me_title {
+          width: 120px;
+          height: 20px;
+          border-radius: 100px 100px 100px 100px;
+          border: solid 1px black;
+        }
 
         .write_me1 {
           font-weight: bold;
-          width: 400px;
-          font-size: 50px;
+          width: 500px;
+          font-size: 60px;
           color: rgb(0, 0, 0);
+          display: flex;
+          flex-wrap: wrap;
+
+          .img_title_write_me_cover{
+            margin-left: 30px;
+            .img_title_write_me {
+            
+              border-radius: 50%;
+              width: 40px;
+              height: 40px;
+              margin-left: -10px;
+              object-fit: contain;
+              background-color: #904cff;
+              border: solid 1px white;
+            }
+          }
+          
+
         }
 
         .write_me2 {
           font-weight: normal;
-          margin: auto;
-          // text-align: center;
-          font-size: 30px;
+          // padding: 20px;
+          font-size: 18px;
           color: rgb(0, 0, 0)
         }
 
-        .kotak{
+        .kotak {
           width: 200px;
           height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
           background-color: #F1C40F;
+          
+          .kotak_write{
+            // background-color: #ffffff;
+            width: 200px;
+            height: 25px;
+            text-align: center;
+          }
         }
       }
 
@@ -156,16 +189,16 @@
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
-          width: 230px;
-          height: 335px;
+          width: 240px;
+          height: 350px;
           // overflow: hidden;
-          border-radius: 100px 100px 100px 100px;
+          border-radius: 150px 150px 150px 150px;
 
           .image_me_url {
             margin-top: -80px;
             border-radius: 100px 100px 100px 100px;
 
-            width: 260px;
+            width: 250px;
             height: 390px;
             // clip-path: ;
             // background-clip: content-box;
@@ -244,11 +277,12 @@
             box-shadow: 4px 4px 10px rgb(77, 71, 71);
             background-color: #ffffff;
             padding: 3px;
+
             .img_inside_write3 {
               border-radius: 50%;
               width: 40px;
               height: 40px;
-              
+
               object-fit: contain;
               background-color: #92e9ff;
             }
@@ -301,7 +335,7 @@
 
           // border-radius: 50%;
           width: 300px;
-          height: 290px;
+          height: 250px;
 
           // margin: auto;
 
@@ -348,7 +382,7 @@
 
           // border-radius: 50%;
           width: 300px;
-          height: 290px;
+          height: 250px;
 
           margin: auto;
 
@@ -395,13 +429,14 @@
 
           // border-radius: 50%;
           width: 300px;
-          height: 290px;
+          height: 250px;
 
           margin: auto;
-          padding: 3px;
+          // padding: 3px;
+
           .image_yellow {
-            
-           
+
+
             align-items: center;
             justify-content: center;
             // border-radius: 50%;

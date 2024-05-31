@@ -21,13 +21,14 @@ class AllSCreens extends Component{
         <Home/>
         <AboutMe/>
         <Education/>
-        {/* <Framework/> */}
+        
         <Skills/>
+        <Framework/>
         <ToolSkills/>
-        {/* <Project/> */}
+        <Project/>
         {/* <Another/> */}
-        {/* <ContactMe/>
-        <Footer/> */}
+        <ContactMe/>
+        <Footer/>
       </div>
     )
   }

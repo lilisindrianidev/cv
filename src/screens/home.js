@@ -4,7 +4,9 @@ import Lilis from '../assets/images/lilis2.png'
 import Logo from '../assets/images/logo.png'
 import { Component } from "react";
 import Girl2 from '../assets/images/girl2.png'
-import Contact from './contactMe.js'
+import Creative from '../assets/images/creative.png'
+import Thinker from '../assets/images/think.png'
+import Team from '../assets/images/team.png'
 
 class Home extends Component {
   constructor(props) {
@@ -43,52 +45,52 @@ class Home extends Component {
           {/* <Contact /> */}
           <div className='cover_me'>
             <div className='write_me'> 
-              <div className='write_me1'> Hi I am </div>
+              <button className='button_me_title'>button</button>
+              <div className='write_me1'> Hi I am 
+               
+                <div className='img_title_write_me_cover'>
+                  <img src={Girl2} className='img_title_write_me'/>
+                  <img src={Girl2} className='img_title_write_me'/>
+                  <img src={Girl2} className='img_title_write_me'/>
+                </div>
+              </div>
               <div className='write_me1'> Lilis Indriani</div>
-              <div className='write_me2'> I am Web Developer</div>
-              <div className='kotak'></div>
+              <h3 className='write_me2'> I am Web Developer</h3>
+              <div className='kotak'>
+                <div className='kotak_write'>More about me</div>
+              </div>
             </div>
             <div className='cover_image_me'>
               <div className='image_me'>
                 <img src={Lilis} className='image_me_url' />
                 <div className='wrap_img_write'>
-                <img src={Girl2} className='img_inside_write' />
-                  <div className='img_write'>Hello</div>
+                <img src={Thinker} className='img_inside_write' />
+                  <div className='img_write'>Critical thinker</div>
                 </div>
                 <div className='wrap_img_write2'>
-                <img src={Girl2} className='img_inside_write2' />
-                  <div className='img_write2'>Hello</div>
+                <img src={Team} className='img_inside_write2' />
+                  <div className='img_write2'>Work on team</div>
                 </div>
                 <div className='wrap_img_write3'>
-                  <img src={Girl2} className='img_inside_write3' />
+                  <img src={Creative} className='img_inside_write3' />
                   <div className='img_write3'>Creative</div>
                 </div>
               </div>
               <div className='image_me_write'>
-                <div className='write_image_me'>hello guys hello guys this is me, and and and anad a</div>
+                <div className='write_image_me'>Lets check up on me, scrolling down and you gonna find me there</div>
               </div>
             </div>
           </div>
 
         
         <div className='cover'>
-          < div className="blue">
-            {/* <Color color="yellow"> hellooo</Color> */}
-            <div className="wrap_image_tools2">
-              {/* <img src={Gimp} className="image_tools2" /> */}
-              <div className="wrap_ww_tools2">
-                <div className="write_tools2">Creative</div>
-                <div className="write_tools22 ">i am creative because i am able to bring you to my home</div>
-              </div>
-            </div>
-          </div>
-          < div className="grey">
+        < div className="grey">
             {/* <Color color="yellow"> hellooo</Color> */}
             <div className="wrap_image_grey">
               {/* <img src={Gimp} className="image_tools2" /> */}
               <div className="wrap_ww_grey">
-                <div className="write_grey">Critical thinker</div>
-                <div className="write_grey2 ">i am critical thinker because i am able to bring you to my home</div>
+                <div className="write_grey">Gimp</div>
+                <div className="write_grey ">Intermediet</div>
               </div>
             </div>
           </div>
@@ -102,16 +104,28 @@ class Home extends Component {
               </div>
             </div>
           </div>
+          
           < div className="grey">
             {/* <Color color="yellow"> hellooo</Color> */}
             <div className="wrap_image_grey">
               {/* <img src={Gimp} className="image_tools2" /> */}
               <div className="wrap_ww_grey">
-                <div className="write_grey">Gimp</div>
-                <div className="write_grey ">Intermediet</div>
+                <div className="write_grey">Critical thinker</div>
+                <div className="write_grey2 ">i am critical thinker because i am able to bring you to my home</div>
               </div>
             </div>
           </div>
+          < div className="blue">
+            {/* <Color color="yellow"> hellooo</Color> */}
+            <div className="wrap_image_tools2">
+              {/* <img src={Gimp} className="image_tools2" /> */}
+              <div className="wrap_ww_tools2">
+                <div className="write_tools2">Creative</div>
+                <div className="write_tools22 ">i am creative because i am able to bring you to my home</div>
+              </div>
+            </div>
+          </div>
+          
         </div>
 
       </div>

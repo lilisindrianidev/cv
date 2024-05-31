@@ -2,7 +2,7 @@
   // background-color: #495467;
   // background-color: rgb(255, 255, 255);
   width: 100%;
-  min-height: 10px;
+  min-height: 60vh;
 
   // background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),rgb(184, 134, 11);
   background: cover;
@@ -10,11 +10,12 @@
 
 
   .title_contact {
-    color: #4d1909;
+    color: #000000;
     font-size: 35px;
     padding: 20px;
     text-align: center;
     font-weight: bold;
+    margin-bottom: 80px;
   }
 
   .social_media {
@@ -24,7 +25,7 @@
     flex-wrap: wrap;
     justify-content: center;
     // background: linear-gradient(white, rgb(165, 165, 165), white);
-    float: right;
+    
 
     .write_social {
       color: rgb(0, 0, 0);
@@ -35,17 +36,18 @@
 
     .media_img {
       // position: absolute;
-      margin-top: 5px;
-      margin-left: 40px;
-      width: 40px;
-      height: 40px;
-      // filter: sezpia(100%);
-      filter:sepia(100%) saturate(600%) hue-rotate(10000deg);
-      //     //  filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+      // margin-top: 5px;
+       margin-left: 40px;
+      width: 100px;
+      height: 100px;
+      // filter: sez  mjnkm pia(100%);
+      // filter:sepia(100%) saturate(600%) hue-rotate(10000deg);
+       filter: sepia(100%) hue-rotate(190deg) saturate(500%);
       //
       // filter: sepia(100%) saturate(500%) hue-rotate(10deg);
-      &::after {
-       
+      &:hover {
+        width: 120px;
+        height: 120px;
       }
 
 

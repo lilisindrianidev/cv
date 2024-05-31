@@ -1,14 +1,14 @@
 .project {
   width: 100%;
-  min-height: 60vh;
+  min-height: 80vh;
   // background-color: #495467;
-  background: linear-gradient(white, #495467);
+  // background: linear-gradient(white, #495467);
  
   .cover_pro {
     
     margin: auto;
     .title_pro {
-      color: #4d1909;
+      color: #000000;
       font-size: 35px;
       padding: 20px;
       text-align: center;
@@ -27,17 +27,41 @@
        
         margin: 20px;
         .cover_pro_image {
+         
           width: 270px;
           height: 200px;
-          filter: brightness(10%);
+          font-size: 20px;
+          color: rgb(255, 255, 255);
           margin: auto;
-          .pro_image {
+          .pro_image { 
+            filter: brightness(35%) contrast(45%);
             width: 270px;
             height: 200px;
+            &:hover{
+              color: transparent;
+              filter: brightness(100%);
+            }
+          }
+          .pro_img_write{
+            color: rgb(255, 255, 255);
+             filter: brightness(100%);
+            margin-top: -205px;
+            padding: 20px;
+            text-align: center;
+            margin-left: 1px;
+           
+            &:hover{
+             
+              color: transparent;
+              filter: brightness(100%);
+            }
           }
           &:hover{
-            filter: brightness(100%);
+            font-size: 0;
+            color: transparent;
+             filter: brightness(100%);
           }
+         
         }
        
 
