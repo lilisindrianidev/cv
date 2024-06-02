@@ -2,7 +2,7 @@
  
   width: 100%;
   // margin: auto;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #ffffff;
   font-family: Verdana, sans-serif;
 
@@ -74,3 +74,4 @@
 
   }
 }
+@import'./responsive/aboutRes.scss'
