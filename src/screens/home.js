@@ -50,7 +50,7 @@ class Home extends Component {
           {/* <Contact /> */}
           <div className='cover_me'>
             <div className='write_me'>
-              <button className='button_me_title'>button</button>
+              <button className='button_me_title'>My address</button>
               <div className='write_me1'> Hi I am
 
                 <div className='img_title_write_me_cover'>
