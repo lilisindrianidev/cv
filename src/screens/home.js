@@ -93,13 +93,13 @@ class Home extends Component {
             < div className="grey">
               {/* <Color color="yellow"> hellooo</Color> */}
               <div className="wrap_image_grey">
-
+                
                 <div className="wrap_ww_grey">
-                  <div className="write_grey">Gimp</div>
+                  <div className="write_grey">It's me</div>
                   <div className='cover_shape_grey'>
-                    <div className='shape_grey'>hello</div>
-                    <div className='shape_grey'>ima creative</div>
-                    <div className='shape_grey'>work on team</div>
+                    <div className='shape_grey'>i am critical thinker</div>
+                    <div className='shape_grey'>creative</div>
+                    <div className='shape_grey'>and able to work on team</div>
                   </div>
                 </div>
               </div>
@@ -111,14 +111,15 @@ class Home extends Component {
 
                 <div className="wrap_ww_yellow">
                   <div className='cover_write_arrow'>
-                    <div className="write_yellow">work on team</div>
+                    <div className="write_yellow">Work on team</div>
                     <div className='cover_arrow'>
                       <img src={Panah} className="image_yellow" />
                     </div>
                   </div>
-                  <div className="write_yellow2 ">i i used to
-                  <div className='write_yellow23'> work on team</div>
-                   i am able to bring you to my home</div>
+                  <div className="write_yellow2 ">I used to
+                  <b  className='write_yellow23'> work on team </b>
+                    when its easier for me to get to know more information, be responsible, and accepting the suggestion.
+                   </div>
                 </div>
               </div>
             </div>
@@ -128,7 +129,7 @@ class Home extends Component {
               <div className="wrap_image_grey2">
 
                 <div className="wrap_ww_grey2">
-                  <div className="write_grey2">i am critical thinker because i am able to bring you to my home</div>
+                  <div className="write_grey2">I am critical thinker because i used to find the root of the problem and find how to solve it</div>
                   {/* <div className="write_grey22 ">i am critical thinker because i am able to bring you to my home</div> */}
 
                 </div>
@@ -146,7 +147,7 @@ class Home extends Component {
                 {/* <img src={Gimp} className="image_tools2" /> */}
                 <div className="wrap_ww_tools2">
                 <div className='cover_write_arrow2'>
-                    <div className="write_tools2">Creative</div>
+                    <div className="write_tools2">My creativity can make me develope the good idea of the project</div>
                     <div className='cover_arrow2'>
                       <img src={Panah} className="image_blue" />
                     </div>
