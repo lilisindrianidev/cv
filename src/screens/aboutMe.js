@@ -34,9 +34,9 @@ class AboutMe extends Component {
               <img src={Me} className="me" />
             </div>
           </div>
-          <div className="book_me">
-            {/* <img src={BookMe} className="book_me_img"/> */}
-          </div>
+           {/* <div className="book_me">
+            <img src={BookMe} className="book_me_img"/> 
+           </div>   */}
 
         </div>
       </div>

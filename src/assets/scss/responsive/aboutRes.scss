@@ -1,19 +1,13 @@
 @media (max-width: 1440px) {
   .aboutMe {
  
-    width: 100%;
-    // margin: auto;
-    min-height: 120vh;
-    background-color: #ffffff;
-    font-family: Verdana, sans-serif;
-  margin-bottom: 100px;
     .cover_aboutMe {
   
       // position:absolute;
       align-items: center;
       margin: 0px auto;
       width: 98%;
-      height: 100vh;
+      // height: 100vh;
       // border-radius: 50px;
       // background-color: #5DADE2;
   
@@ -22,7 +16,7 @@
         // text-align: center;
         padding: 50px;
         color: #000000;
-        font-size: 35px;
+        font-size: 40px;
         font-weight: bold;
       }
      
@@ -79,19 +73,14 @@
 @media (max-width: 1024px) {
   .aboutMe {
  
-    width: 100%;
-    // margin: auto;
-    min-height: 100vh;
-    background-color: #ffffff;
-    font-family: Verdana, sans-serif;
-  
+   
     .cover_aboutMe {
   
       // position:absolute;
       align-items: center;
       margin: 0px auto;
       width: 98%;
-      height: 100vh;
+      // height: 100vh;
       // border-radius: 50px;
       // background-color: #5DADE2;
   
@@ -100,7 +89,7 @@
         // text-align: center;
         padding: 50px;
         color: #000000;
-        font-size: 35px;
+        font-size: 40px;
         font-weight: bold;
       }
      
@@ -154,14 +143,10 @@
     }
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .aboutMe {
  
-    width: 100%;
-    // margin: auto;
-    min-height: 120vh;
-    background-color: #ffffff;
-    font-family: Verdana, sans-serif;
+
   
     .cover_aboutMe {
   
@@ -175,20 +160,97 @@
   
       .title_aboutMe {
         padding-top: 60px;
-        // text-align: center;
-        padding: 50px;
+        //text-align: center;
+        // padding-bottom: 50px;
+        padding-left: 20px;
+        color: #000000;
+        font-size: 35px;
+        font-weight: bold;
+      }
+     
+      .cover_aboutme2{
+        display: block;
+    
+        .cover_write_aboutMe {
+          margin: auto;
+          // margin: auto;
+          width: 90%;
+          // padding-bottom: 70px;
+        
+          .write_aboutMe {
+            // text-align: center;
+            color: #000000;
+            font-size: 15px;
+          }
+        }
+    
+        .cover_me {
+        
+          margin: auto;
+          border-radius: 50% 50% 0 0;
+          width: 300px;
+          height: 200px;
+          background-color: #97c3fd;
+          border: solid 5px rgb(117, 117, 117);
+  
+          .me {
+    
+            width: 80px;
+            height: 200px;
+          }
+    
+        }
+  
+      }
+     
+  
+      .book_me {
+        margin: 20px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+  
+        .book_me_img {
+          width: 200px;
+          height: 200px;
+        }
+      }
+  
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .aboutMe {
+ 
+   
+    .cover_aboutMe {
+  
+      // position:absolute;
+      align-items: center;
+      margin: 0px auto;
+      width: 98%;
+      // height: 100vh;
+      // border-radius: 50px;
+      // background-color: #5DADE2;
+  
+      .title_aboutMe {
+        padding-top: 60px;
+        //text-align: center;
+        // padding-bottom: 50px;
+        padding-left: 20px;
         color: #000000;
         font-size: 25px;
         font-weight: bold;
       }
      
       .cover_aboutme2{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        display: block;
+    
         .cover_write_aboutMe {
+          margin: auto;
           // margin: auto;
-          width: 40%;
+          width: 90%;
           // width: 0;
           // height: 0;
         
@@ -200,8 +262,9 @@
         }
     
         .cover_me {
+          margin: auto;
           border-radius: 50% 50% 0 0;
-          width: 100px;
+          width: 300px;
           height: 200px;
           background-color: #97c3fd;
           border: solid 5px rgb(117, 117, 117);

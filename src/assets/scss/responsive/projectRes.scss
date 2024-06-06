@@ -1,0 +1,164 @@
+@media (min-width: 1440px) {
+  .project {
+   
+    .cover_pro {
+      
+      margin: auto;
+      .title_pro {
+        font-size: 40px;
+      }
+  
+      .cover_inside_pro {
+       
+        .cover_inside_pro2 {
+         
+          
+          .cover_pro_image {
+           
+   
+            .pro_image { 
+              
+              &:hover{
+               
+              }
+            }
+            .pro_img_write{
+             
+              &:hover{
+               
+                color: transparent;
+                filter: brightness(100%);
+              }
+            }
+            &:hover{
+             
+            }
+           
+          }
+         
+  
+          .cover_pro_write {
+            text-align: center;
+            .pro_write {
+             
+            }
+            .pro_write2{
+             
+            }
+          }
+        }
+  
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .project {
+   
+    .cover_pro {
+      
+      margin: auto;
+      .title_pro {
+        font-size: 40px;
+      }
+  
+      .cover_inside_pro {
+       
+        .cover_inside_pro2 {
+          width: 46%;
+          
+          .cover_pro_image {
+           
+   
+            .pro_image { 
+              
+              &:hover{
+               
+              }
+            }
+            .pro_img_write{
+             
+              &:hover{
+               
+                color: transparent;
+                filter: brightness(100%);
+              }
+            }
+            &:hover{
+             
+            }
+           
+          }
+         
+  
+          .cover_pro_write {
+            text-align: center;
+            .pro_write {
+             
+            }
+            .pro_write2{
+             
+            }
+          }
+        }
+  
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .project {
+   
+    .cover_pro {
+      
+      margin: auto;
+      .title_pro {
+        font-size: 25px;
+      }
+  
+      .cover_inside_pro {
+       
+        .cover_inside_pro2 {
+          width: 92%;
+          
+          .cover_pro_image {
+           
+   
+            .pro_image { 
+              
+              &:hover{
+               
+              }
+            }
+            .pro_img_write{
+             
+              &:hover{
+               
+                color: transparent;
+                filter: brightness(100%);
+              }
+            }
+            &:hover{
+             
+            }
+           
+          }
+         
+  
+          .cover_pro_write {
+            text-align: center;
+            .pro_write {
+             
+            }
+            .pro_write2{
+             
+            }
+          }
+        }
+  
+      }
+    }
+  }
+}

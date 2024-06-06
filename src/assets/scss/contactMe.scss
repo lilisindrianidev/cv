@@ -1,7 +1,8 @@
 .contactMe {
-  font-family: Verdana, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
-  min-height: 60vh;
+  min-height: auto;
+  margin-bottom: 50px ;
 
   // background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),rgb(184, 134, 11);
   background: cover;
@@ -10,7 +11,7 @@
 
   .title_contact {
     color: #000000;
-    font-size: 35px;
+    font-size: 40px;
     padding: 20px;
     text-align: center;
     font-weight: bold;
@@ -59,3 +60,4 @@
 
 
 }
+@import'./responsive/contactRes.scss'

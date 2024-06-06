@@ -45,7 +45,7 @@ class Home extends Component {
 
           </div>
         </div>
-        <div className='home_cover'>
+        <div className='home_cover'> //robert
         <Burger />
           {/* <Contact /> */}
           <div className='cover_me'>

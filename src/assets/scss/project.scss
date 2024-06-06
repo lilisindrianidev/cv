@@ -1,13 +1,13 @@
 .project {
   width: 100%;
   min-height: 80vh;
-  font-family: Verdana, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   .cover_pro {
     
     margin: auto;
     .title_pro {
       color: #000000;
-      font-size: 35px;
+      font-size: 40px;
       padding: 20px;
       text-align: center;
       font-weight: bold;
@@ -16,24 +16,25 @@
 
     .cover_inside_pro {
       
+      width: 95%;
 
       display: flex;
       flex-wrap: wrap;
       margin: auto;
       justify-content: center;
       .cover_inside_pro2 {
-       
-        margin: 20px;
+        width: 23%;
+        margin: 10px;
         .cover_pro_image {
          
-          width: 270px;
+          
           height: 200px;
           font-size: 20px;
           color: rgb(255, 255, 255);
           margin: auto;
           .pro_image { 
             filter: brightness(35%) contrast(45%);
-            width: 270px;
+             width: 100%;
             height: 200px;
             &:hover{
               color: transparent;
@@ -79,3 +80,4 @@
     }
   }
 }
+@import'./responsive/projectRes.scss';

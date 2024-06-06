@@ -1,0 +1,98 @@
+@media (min-width: 450px) {
+  .footer {
+
+    .cover_footer {
+      margin: auto;
+      width: 95%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+  
+      font-size: 25px;
+      color: rgb(0, 0, 0);
+      .write_add {
+        color: #000000;
+        font-size: 35px;
+        padding: 20px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 80px;
+  
+      }
+      .address {
+  
+        width: 95%;
+        margin: 5px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+  
+       
+  
+        .wrap_img_add {
+          display: flex;
+          flex-wrap: wrap;
+          margin: auto;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+  
+          .second_wrap {
+            width: 200px;
+            padding: 10px;
+  
+            .add_img {
+  
+              padding-bottom: 5px;
+              width: 30px;
+              // height: 30px;
+              // width: 32px;
+              aspect-ratio: auto 32 / 32;
+              // height: 32px;
+              overflow-clip-margin: content-box;
+              overflow: clip;
+              // filter: invert(100%);
+  
+            }
+  
+            &:hover {
+              filter: brightness(120%);
+              -webkit-filter: brightness(120%);
+              background-color: #4a5572;
+              border-radius: 15px;
+            }
+          }
+  
+        }
+  
+        .explain_footer {
+          min-width: 100px;
+          margin: 5px;
+          margin-top: 30px;
+  
+          .ex_write {
+            font-size: 18px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+  
+            &:hover {
+              filter: brightness(120%);
+              -webkit-filter: brightness(120%);
+              background-color: #4a5572;
+              border-radius: 15px;
+              padding: 10px;
+            }
+          }
+  
+        }
+  
+        .add_write {
+          color: rgb(0, 0, 0);
+          font-size: 12px;
+        }
+      }
+  
+    }
+  
+  
+  }
+}
