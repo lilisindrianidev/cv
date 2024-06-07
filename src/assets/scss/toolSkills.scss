@@ -3,8 +3,9 @@
   min-height: auto;
   margin-bottom: 50px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  background-color: rgb(255, 239, 213);
   .cover_tools {
+    padding-bottom: 50px;
     .first_tools{
       margin-bottom: 80px;
       display: flex;
@@ -53,13 +54,13 @@
 
       .wrap_tools_part_blue {
 
-        // margin: 30px;
+        width: 14%;
         .wrap_image_tools2 {
           background-color: #29B6F6;
           align-items: center;
           
           // border-radius: 50%;
-          width: 180px;
+          width: 100%;
           height: 180px;
 
           margin: auto;
@@ -67,9 +68,10 @@
           .image_tools2 {
             
             margin: auto;
-            align-items: center;
-            justify-content: center;
-            // border-radius: 50%;
+            display: flex;
+            flex-wrap: wrap;
+           justify-content: center;
+      
             width: 120px;
             height: 120px;
           }
@@ -96,13 +98,13 @@
    
       .wrap_tools_part_yellow {
 
-        // margin: 30px;
+        width: 14%;
         .wrap_image_tools1 {
           background-color: #F1C40F;
           align-items: center;
           
           // border-radius: 50%;
-          width: 180px;
+          width: 100%;
           height: 180px;
           // display: flex;
           // flex-wrap: wrap;
@@ -112,9 +114,10 @@
           .image_tools1 {
             
             margin: auto;
-            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
             justify-content: center;
-            // border-radius: 50%;
+      
             width: 120px;
             height: 120px;
           }
@@ -140,13 +143,13 @@
       }
       .wrap_tools_part_grey {
 
-        // margin: 30px;
+        width: 14%;
         .wrap_image_tools3 {
           background-color: #E0E0E0;
           align-items: center;
           
           // border-radius: 50%;
-          width: 180px;
+          width: 100%;
           height: 180px;
          
           margin: auto;
@@ -154,9 +157,10 @@
           .image_tools3 {
             
             margin: auto;
-            align-items: center;
-            justify-content: center;
-            // border-radius: 50%;
+            display: flex;
+            flex-wrap: wrap;
+           justify-content: center;
+      
             width: 120px;
             height: 120px;
           }

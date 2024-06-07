@@ -3,8 +3,9 @@
   // background-image: linear-gradient(to right, #faa287 ,#709e34, rgb(102, 102, 37));
   width: 100%;
   min-height: auto;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-margin-bottom: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 50px;
+
   .edu_wrap {
     .edu_title {
       color: #000000;
@@ -16,35 +17,50 @@ margin-bottom: 50px;
 
     .cover_img_edu {
       display: flex;
-      flex-wrap: wrap; 
+      flex-wrap: wrap;
       justify-content: center;
+
       .cover_edu_img_hs {
+       
         border-radius: 15px;
         align-items: center;
         width: 400px;
         height: 400px;
         background-color: rgb(255, 255, 255);
         margin: 20px;
+        
         .img_hs {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
           align-items: center;
+          margin: auto;
           border-radius: 50%;
           width: 200px;
           height: 200px;
+          background-color: rgb(253, 137, 156);
 
         }
-        .hs{
+
+        .hs {
           font-weight: bold;
           text-align: center;
           font-size: 22px;
           color: rgb(16, 87, 16);
           padding: 4px;
+
+          .detail_hs {
+            font-weight: normal;
+            text-align: center;
+            font-size: 17px;
+            color: rgb(16, 87, 16);
+            padding: 4px;
+          }
         }
-        .detail_hs{
-          text-align: center;
-          font-size: 17px;
-          color: rgb(16, 87, 16);
-          padding: 4px;
-        }
+
+
+
+
       }
 
       .cover_edu_img_uni {
@@ -53,29 +69,40 @@ margin-bottom: 50px;
         height: 400px;
         background-color: rgb(255, 255, 255);
         margin: 20px;
+       
         .img_uni {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          margin: auto;
           border-radius: 50%;
           width: 200px;
           height: 200px;
 
         }
-        .university{
+
+        .university {
           font-weight: bold;
           text-align: center;
           font-size: 22px;
           color: rgb(16, 87, 16);
           padding: 4px;
+
+          .detail_uni {
+            font-weight: normal;
+            text-align: center;
+            font-size: 17px;
+            color: rgb(16, 87, 16);
+            padding: 4px;
+          }
         }
-        .detail_uni{
-          text-align: center;
-          font-size: 17px;
-          color: rgb(16, 87, 16);
-          padding: 4px;
-        }
+
+
       }
 
     }
 
   }
 }
+
 @import'./responsive/educationRes.scss';

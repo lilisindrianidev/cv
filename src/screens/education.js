@@ -17,26 +17,30 @@ class Education extends Component {
           <div className="cover_img_edu">
             <div className="cover_edu_img_hs">
               <img src={Hs} className="img_hs" />
-              <div className="hs"> High school</div>
-              <div className="detail_hs">
-                SMAN 1 PAninggaran
+              <div className="hs"> High school
+                <div className="detail_hs">
+                  SMAN 1 PAninggaran
+                </div>
+                <div className="detail_hs">
+                  Science
+                </div>
               </div>
-              <div className="detail_hs">
-                Science
-              </div>
+
             </div>
             <div className="cover_edu_img_uni">
               <img src={Uni} className="img_uni" />
-              <div className="university"> University</div>
-              <div className="detail_uni">
-                Universitas teknologi digotal indonesia
+              <div className="university"> University
+                <div className="detail_uni">
+                  Universitas teknologi digotal indonesia
+                </div>
+                <div className="detail_uni">
+                  Computer Science
+                </div>
+                <div className="detail_uni">
+                  GPA : 3.64
+                </div>
               </div>
-              <div className="detail_uni">
-                Computer Science
-              </div>
-              <div className="detail_uni">
-                GPA : 3.64
-              </div>
+
             </div>
 
           </div>

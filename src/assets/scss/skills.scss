@@ -4,7 +4,7 @@
   .wrap {
     width: 100%;
     min-height: auto;
-
+    background-color: rgb(236, 243, 243);
 
     .wrap_skills {
       // padding: 20px;
@@ -23,7 +23,7 @@
 
         .title_skills_small {
           margin: auto;
-          width: 400px;
+          width: 80%;
           color: #000000;
           font-size: 20px;
           // padding: 20px;
@@ -35,34 +35,21 @@
 
 
       .ability {
-        // display: flex;
-        // flex-wrap: wrap;
-        // justify-content: space-between;
-
-        // .programming {
-        //   margin: auto;
-        //   width: 50%;
-        //   min-height: 100vh;
-        //   background-color: white;
-        //   // filter: contrast(0%) brightness(2);
-        //   .iage_pro {
-        //     margin: auto;
-        //     width: 40%;
-        //     height: 100px;
-        //   }
-
-        // }
+       
 
         .image_wrap_skills {
           max-height: 100%;
           padding-bottom: 20px;
           display: flex;
           flex-wrap: wrap;
-          justify-content: space-between;
+          justify-content: center;
+          width: 90%;
+          margin: auto;
 
           .tools_cover_skills_blue {
             background-color: rgb(191, 226, 255);
-            width: 170px;
+            width: 20%;
+            margin: 10px;
             padding: 20px;
             border-radius: 15px;
             height: 200px;
@@ -103,9 +90,10 @@
 
           .tools_cover_skills_pink {
 
-            width: 170px;
+            width: 20%;
+            margin: 10px;
             padding: 20px;
-            border-radius: 50px;
+            border-radius: 15px;
             height: 200px;
             background-color: rgb(253, 209, 216);
 
