@@ -1,15 +1,15 @@
 .aboutMe {
- 
+
   width: 100%;
   margin-bottom: 50px;
   height: auto;
   background-color: #EC7063;
   margin-top: 100px;
- 
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
   .cover_aboutMe {
-   
+
     // position:absolute;
     align-items: center;
     margin: 0px auto;
@@ -18,43 +18,47 @@
     // border-radius: 50px;
     // background-color: #5DADE2;
 
-    
-  //  @media(prefers-reduced-motion: no-preference){
 
-   
-    .cover_aboutme2{
+    //  @media(prefers-reduced-motion: no-preference){
+
+
+    .cover_aboutme2 {
       overflow: clip;
       padding-top: 30px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
+      z-index: -1;
       scale: 1;
       opacity: 1;
       animation: fade-in linear forwards;
       -webkit-animation: fade-in linear forwards;
-  -moz-animation: fade-in linear forwards;
-  -o-animation: fade-in linear forwards;
-  animation-timeline: scroll(block root);
+      -moz-animation: fade-in linear forwards;
+      -o-animation: fade-in linear forwards;
+      animation-timeline: scroll(block root);
       animation-range: 500px;
+
       @keyframes fade-in {
         to {
           scale: .6;
           opacity: 0;
         }
-    
+
       }
+
       .title_aboutMe {
-       
+
         width: 60%;
         color: #000000;
         font-size: 35px;
         font-weight: bold;
+
         .cover_write_aboutMe {
           font-weight: normal;
-          
+
           // width: 0;
           // height: 0;
-        
+
           .write_aboutMe {
             // text-align: center;
             color: #000000;
@@ -62,8 +66,8 @@
           }
         }
       }
-     
-  
+
+
       .cover_me {
         border-radius: 50% 50% 0 0;
         width: 400px;
@@ -72,15 +76,15 @@
         border: solid 5px rgb(117, 117, 117);
 
         .me {
-  
+
           width: 200px;
           height: 400px;
         }
-  
+
       }
 
     }
-   
+
 
     .book_me {
       margin: 20px;
@@ -95,8 +99,9 @@
     }
 
   }
- 
-// }
+
+  // }
 
 }
+
 @import'./responsive/aboutRes.scss'
