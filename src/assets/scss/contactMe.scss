@@ -23,11 +23,11 @@
   }
 
   .social_media {
-    scale: 1;
-    opacity: 1;
-    animation: fade-in linear forwards;
-    animation-timeline: view();
-    animation-range: 500px;
+    // scale: 1;
+    // opacity: 1;
+    // animation: fade-in linear forwards;
+    // animation-timeline: view();
+    // animation-range: 500px;
 
     margin-top: 1px;
     display: flex;
@@ -64,13 +64,13 @@
 
     }
 
-    @keyframes fade-in {
-      to {
-        scale: .6;
-        opacity: 0;
-      }
+    // @keyframes fade-in {
+    //   to {
+    //     scale: .6;
+    //     opacity: 0;
+    //   }
 
-    }
+    // }
 
 
   }
