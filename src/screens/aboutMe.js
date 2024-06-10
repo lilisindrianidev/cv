@@ -16,7 +16,7 @@ class AboutMe extends Component {
 
         <div className="cover_aboutMe">
 
-          <div className="cover_aboutme2">
+          <section className="cover_aboutme2">
             <div className="title_aboutMe">Get to know more About Me...
               <div className="cover_write_aboutMe">
                 <div className="write_aboutMe">
@@ -37,7 +37,7 @@ class AboutMe extends Component {
             <div className="cover_me">
               <img src={Me} className="me" />
             </div>
-          </div>
+          </section>
           {/* <div className="book_me">
             <img src={BookMe} className="book_me_img"/> 
            </div>   */}
