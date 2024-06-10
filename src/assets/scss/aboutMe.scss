@@ -19,6 +19,8 @@
     // background-color: #5DADE2;
 
     
+   @media(prefers-reduced-motion: no-preference){
+
    
     .cover_aboutme2{
       padding-top: 30px;
@@ -89,6 +91,7 @@
     }
 
   }
+}
 
 }
 @import'./responsive/aboutRes.scss'
