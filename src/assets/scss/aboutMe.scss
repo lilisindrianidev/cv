@@ -34,7 +34,7 @@
       -webkit-animation: fade-in linear forwards;
   -moz-animation: fade-in linear forwards;
   -o-animation: fade-in linear forwards;
-      animation-timeline: view();
+  animation-timeline: scroll(block root);
       animation-range: 500px;
       @keyframes fade-in {
         to {
