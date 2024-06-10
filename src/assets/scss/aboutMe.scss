@@ -33,6 +33,13 @@
       animation: fade-in linear forwards;
       animation-timeline: view();
       animation-range: 500px;
+      @keyframes fade-in {
+        to {
+          scale: .6;
+          opacity: 0;
+        }
+    
+      }
       .title_aboutMe {
        
         width: 60%;
@@ -85,13 +92,7 @@
     }
 
   }
-  @keyframes fade-in {
-    to {
-      scale: .6;
-      opacity: 0;
-    }
-
-  }
+ 
 // }
 
 }
