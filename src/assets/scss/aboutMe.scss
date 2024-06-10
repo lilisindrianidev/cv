@@ -37,17 +37,17 @@
       animation-timeline: scroll(block root);
       animation-range: 500px;
 
-      @keyframes fade-in {
-        from{
-          scale: 1;
-          opacity: 1;
-        }
-        to {
-          scale: .6;
-          opacity: 0;
-        }
+      // @keyframes fade-in {
+      //   from{
+      //     scale: 1;
+      //     opacity: 1;
+      //   }
+      //   to {
+      //     scale: .6;
+      //     opacity: 0;
+      //   }
 
-      }
+      // }
 
       .title_aboutMe {
 
