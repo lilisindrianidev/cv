@@ -19,7 +19,7 @@
     // background-color: #5DADE2;
 
     
-   @media(prefers-reduced-motion: no-preference){
+  //  @media(prefers-reduced-motion: no-preference){
 
    
     .cover_aboutme2{
@@ -29,8 +29,8 @@
       justify-content: space-around;
       scale: 1;
       opacity: 1;
-      animation: fade-in linear forwards;
-      animation-timeline: view();
+      // animation: fade-in linear forwards;
+      // animation-timeline: view();
       animation-range: 500px;
       .title_aboutMe {
        
@@ -91,7 +91,7 @@
     }
 
   }
-}
+// }
 
 }
 @import'./responsive/aboutRes.scss'
