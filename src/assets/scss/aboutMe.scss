@@ -30,11 +30,12 @@
       justify-content: space-around;
       
      
-      nimation: fade-in linear forwards;
+      // nimation: fade-in linear forwards;
       // -webkit-animation: fade-in linear forwards;
       // -moz-animation: fade-in linear forwards;
       // -o-animation: fade-in linear forwards;
-      animation-timeline: scroll(block root);
+      animation: fade-in linear forwards;
+      animation-timeline: view();
       animation-range: 500px;
 
       @keyframes fade-in {
