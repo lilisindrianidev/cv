@@ -30,24 +30,24 @@
       justify-content: space-around;
       
      
-      // animation: fade-in linear forwards;
+      nimation: fade-in linear forwards;
       // -webkit-animation: fade-in linear forwards;
       // -moz-animation: fade-in linear forwards;
       // -o-animation: fade-in linear forwards;
       animation-timeline: scroll(block root);
       animation-range: 500px;
 
-      // @keyframes fade-in {
-      //   from{
-      //     scale: 1;
-      //     opacity: 1;
-      //   }
-      //   to {
-      //     scale: .6;
-      //     opacity: 0;
-      //   }
+      @keyframes fade-in {
+        0%{
+          scale: 1;
+          opacity: 1;
+        }
+        100%{
+          scale: .6;
+          opacity: 0;
+        }
 
-      // }
+      }
 
       .title_aboutMe {
 
