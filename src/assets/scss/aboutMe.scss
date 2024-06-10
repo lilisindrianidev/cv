@@ -28,14 +28,14 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
-      z-index: 1;
+      
      
       animation: fade-in linear forwards;
-      -webkit-animation: fade-in linear forwards;
-      -moz-animation: fade-in linear forwards;
-      -o-animation: fade-in linear forwards;
-      // animation-timeline: scroll(block root);
-      animation-range: 500px;
+      // -webkit-animation: fade-in linear forwards;
+      // -moz-animation: fade-in linear forwards;
+      // -o-animation: fade-in linear forwards;
+      
+      nimation-range: 500px;
 
       @keyframes fade-in {
         from{
