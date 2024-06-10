@@ -1,10 +1,13 @@
 .project {
   width: 100%;
-  min-height: 80vh;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 50px;
+
   .cover_pro {
-    
+
     margin: auto;
+
     .title_pro {
       color: #000000;
       font-size: 40px;
@@ -15,68 +18,105 @@
     }
 
     .cover_inside_pro {
-      
+      scale: 1;
+      opacity: 1;
+      animation: fade-in linear forwards;
+      animation-timeline: view();
+      animation-range: 500px;
+
       width: 95%;
 
       display: flex;
       flex-wrap: wrap;
       margin: auto;
       justify-content: center;
+
       .cover_inside_pro2 {
         width: 23%;
         margin: 10px;
+
         .cover_pro_image {
-         
-          
+
+
           height: 200px;
           font-size: 20px;
           color: rgb(255, 255, 255);
           margin: auto;
-          .pro_image { 
+
+          .pro_image {
             filter: brightness(40%) contrast(50%);
-             width: 100%;
+            width: 100%;
             height: 200px;
-            &:hover{
+
+            &:hover {
               color: transparent;
               filter: brightness(100%);
               // grayscale: 1;
-              transition: 0.3s ;
-            } 
+              transition: 0.3s;
+            }
           }
-          .pro_img_write{
+
+          .pro_img_write {
             color: rgb(255, 255, 255);
-             filter: brightness(100%);
+            filter: brightness(100%);
             margin-top: -205px;
             padding: 20px;
             text-align: center;
             margin-left: 1px;
-           
-            &:hover{
-             
+
+            &:hover {
+
               color: transparent;
               // filter: brightness(100%);
               // transition: 0.1s ;
             }
           }
-          &:hover{
+
+          &:hover {
             font-size: 0;
             color: transparent;
-             filter: brightness(100%);
-            //  transition: 0.3s;
-            //  grayscale: 1;
+
+            animation-name: example;
+            animation-duration: 4s;
+            animation-delay: -2s;
           }
-         
+
+          @keyframes example {
+            0% {
+              filter: brightness(10%);
+              opacity: 0;
+              // transform: scale(8);
+            }
+
+            100% {
+              filter: brightness(100%);
+
+              opacity: 1;
+              // transform: scale(.9);
+            }
+          }
+
         }
-       
+
+        @keyframes fade-in {
+          to {
+            scale: .6;
+            opacity: 0;
+          }
+
+        }
+
 
         .cover_pro_write {
           text-align: center;
+
           .pro_write {
             font-size: 20px;
             color: black;
             font-weight: bold;
           }
-          .pro_write2{
+
+          .pro_write2 {
             font-size: 20px;
           }
         }
@@ -85,4 +125,5 @@
     }
   }
 }
+
 @import'./responsive/projectRes.scss';

@@ -18,31 +18,38 @@
     // border-radius: 50px;
     // background-color: #5DADE2;
 
-    .title_aboutMe {
-      padding-top: 60px;
-      // text-align: center;
-      // padding: 40px;
-      color: #000000;
-      font-size: 35px;
-      font-weight: bold;
-    }
+    
    
     .cover_aboutme2{
+      padding-top: 30px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
-      .cover_write_aboutMe {
-        // margin: auto;
+      scale: 1;
+      opacity: 1;
+      animation: fade-in linear forwards;
+      animation-timeline: view();
+      animation-range: 500px;
+      .title_aboutMe {
+       
         width: 60%;
-        // width: 0;
-        // height: 0;
-      
-        .write_aboutMe {
-          // text-align: center;
-          color: #000000;
-          font-size: 25px;
+        color: #000000;
+        font-size: 35px;
+        font-weight: bold;
+        .cover_write_aboutMe {
+          font-weight: normal;
+          
+          // width: 0;
+          // height: 0;
+        
+          .write_aboutMe {
+            // text-align: center;
+            color: #000000;
+            font-size: 25px;
+          }
         }
       }
+     
   
       .cover_me {
         border-radius: 50% 50% 0 0;
@@ -75,5 +82,13 @@
     }
 
   }
+  @keyframes fade-in {
+    to {
+      scale: .6;
+      opacity: 0;
+    }
+
+  }
+
 }
 @import'./responsive/aboutRes.scss'

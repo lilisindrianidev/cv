@@ -1,8 +1,8 @@
 @media (max-width: 1440px) {
   .contactMe {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
-  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
     .title_contact {
       color: #000000;
       font-size: 40px;
@@ -11,23 +11,23 @@
       font-weight: bold;
       margin-bottom: 80px;
     }
-  
+
     .social_media {
-      
+
       margin-top: 1px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       // background: linear-gradient(white, rgb(165, 165, 165), white);
-      
-  
+
+
       .write_social {
         color: rgb(0, 0, 0);
         font-size: 20px;
         text-align: center;
         font-weight: bold;
       }
-  
+
       .media_img {
         // position: absolute;
         // margin-top: 5px;
@@ -36,29 +36,32 @@
         height: 100px;
         // filter: sez  mjnkm pia(100%);
         // filter:sepia(100%) saturate(600%) hue-rotate(10000deg);
-         filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+        filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+
         //
         // filter: sepia(100%) saturate(500%) hue-rotate(10deg);
         &:hover {
-          width: 120px;
-          height: 120px;
+          scroll-behavior: smooth;
+          transition: 2s;
+          transform: rotatey(360deg);
         }
-  
-  
+
+
       }
-  
+
       // }
-  
-  
+
+
     }
-  
-  
+
+
   }
 }
+
 @media (max-width: 450px) {
   .contactMe {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     .title_contact {
       color: #000000;
       font-size: 25px;
@@ -67,7 +70,7 @@
       font-weight: bold;
       margin-bottom: 80px;
     }
-  
+
     .social_media {
       width: 100%;
       margin-top: 1px;
@@ -75,15 +78,15 @@
       // flex-wrap: wrap;
       // justify-content: center;
       // background: linear-gradient(white, rgb(165, 165, 165), white);
-      
-  
+
+
       .write_social {
         color: rgb(0, 0, 0);
         font-size: 20px;
         text-align: center;
         font-weight: bold;
       }
-  
+
       .media_img {
         // position: absolute;
         // margin-top: 5px;
@@ -92,22 +95,23 @@
         height: 100px;
         // filter: sez  mjnkm pia(100%);
         // filter:sepia(100%) saturate(600%) hue-rotate(10000deg);
-         filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+        filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+
         //
         // filter: sepia(100%) saturate(500%) hue-rotate(10deg);
         &:hover {
           width: 120px;
           height: 120px;
         }
-  
-  
+
+
       }
-  
+
       // }
-  
-  
+
+
     }
-  
-  
+
+
   }
 }

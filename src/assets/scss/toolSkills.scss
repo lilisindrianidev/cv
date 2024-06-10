@@ -3,7 +3,13 @@
   min-height: auto;
   margin-bottom: 50px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(255, 239, 213);
+  background-color: rgb(255, 242, 170);
+  object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // top: -40px;
+    background: cover;
+    background-image: url(../images/orange3.jpg);
   .cover_tools {
     padding-bottom: 50px;
     .first_tools{
@@ -44,18 +50,25 @@
 
    
     .wrap_tools_right {
-      
+      overflow:hidden;
+      box-shadow: 4px 4px 10px rgb(77, 71, 71);
       // background-color: #7d889c;
       width: 100%;
       margin: auto;
       display: flex;
       flex-wrap: wrap;
-     justify-content: center;
+      justify-content: center;
+      scale:1; opacity:1;
+      animation: fade-in linear forwards;
+      animation-timeline: view();
+      animation-range: 500px;
+    
 
       .wrap_tools_part_blue {
 
         width: 14%;
         .wrap_image_tools2 {
+          // background: linear-gradient(#c6edff, white);
           background-color: #29B6F6;
           align-items: center;
           
@@ -185,6 +198,11 @@
        
       }
    
+    }
+    
+    @keyframes fade-in{
+      to{scale: .6; opacity:0;}
+      
     }
   
   }

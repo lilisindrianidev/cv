@@ -21,14 +21,19 @@
       justify-content: center;
 
       .cover_edu_img_hs {
-       
+        overflow: hidden;
         border-radius: 15px;
         align-items: center;
         width: 400px;
         height: 400px;
         background-color: rgb(255, 255, 255);
         margin: 20px;
-        
+        scale:1; opacity:1;
+        animation: fade-in linear forwards;
+        animation-timeline: view();
+       animation-range: 500px;
+       
+
         .img_hs {
           display: flex;
           flex-wrap: wrap;
@@ -59,9 +64,17 @@
         }
 
 
-
-
+     
       }
+
+      @keyframes fade-in{
+        to{scale: .6; opacity:0;}
+        
+      }
+
+
+
+
 
       .cover_edu_img_uni {
         border-radius: 15px;
@@ -69,7 +82,12 @@
         height: 400px;
         background-color: rgb(255, 255, 255);
         margin: 20px;
+        scale:1; opacity:1;
+        animation: fade-in linear forwards;
+        animation-timeline: view();
+       animation-range: 500px;
        
+
         .img_uni {
           display: flex;
           flex-wrap: wrap;

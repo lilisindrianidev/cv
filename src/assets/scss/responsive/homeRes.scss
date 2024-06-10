@@ -2,7 +2,8 @@
   .home {
   //  width: 100vh;
     .menu1 {
-     
+      background-color: #ffffff;
+        position: fixed;
       min-height: 70px;
      
       .logo {
@@ -13,13 +14,14 @@
       }
   
       .cover_menu1 {
+       
         align-items: center;
         margin: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         width: 85%;
-  
+        scroll-behavior: smooth;
         .write1_menu1 {
           align-items: center;
           display: flex;
@@ -265,7 +267,7 @@
         // position: fixed;
         border-radius: 0px 15px 15px 0px;
         min-width: 500px;
-        min-height: 100vh;
+        
         // padding-bottom: 50px;
         background-color: #ffffff;
         .image_burger2{
@@ -310,7 +312,7 @@
    
     margin: auto;
     width: 90%;
-    min-height: 100vh;
+   
     position: relative;
     object-fit: cover;
     //  background-color: rgb(255, 255, 255);
@@ -779,7 +781,7 @@
   
       margin: auto;
       width: 90%;
-      min-height: 100vh;
+      
       position: relative;
       object-fit: cover;
       //  background-color: rgb(255, 255, 255);
@@ -814,7 +816,7 @@
           // position: fixed;
           border-radius: 0px 15px 15px 0px;
           min-width: 500px;
-          min-height: 100vh;
+         
           // padding-bottom: 50px;
           background-color: #ffffff;
           .image_burger2{
@@ -1326,7 +1328,7 @@
 
     margin: auto;
     width: 90%;
-    min-height: 100vh;
+    
     position: relative;
     object-fit: cover;
     //  background-color: rgb(255, 255, 255);
@@ -1361,7 +1363,7 @@
         // position: fixed;
         border-radius: 0px 15px 15px 0px;
         min-width: 500px;
-        min-height: 100vh;
+       
         // padding-bottom: 50px;
         background-color: #ffffff;
         .image_burger2{

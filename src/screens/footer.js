@@ -8,9 +8,9 @@ class Footer extends Component {
     return (
       <div className="footer" >
         <div className="cover_footer">
-        <div className="write_add"> Address:</div>
+          <div className="write_add"> Address:</div>
           <div className="address">
-            
+
             <div className="wrap_img_add">
               <div className="second_wrap">
                 <img src={Address} className="add_img" />
@@ -28,18 +28,23 @@ class Footer extends Component {
               </div>
 
               <div className="second_wrap">
-                   <img src={Email} className="add_img" />
+                <img src={Email} className="add_img" />
                 <h3 className="add_write">
                   lilisindriani.blog@gmail.com
                 </h3>
               </div>
 
             </div>
-          
+
           </div>
+
         </div>
 
-
+        <div className="real_footer">
+          <div className="write_real_footer">
+            copyright&copy; 2024 Lilis Indriani
+          </div>
+        </div>
 
       </div>
     )

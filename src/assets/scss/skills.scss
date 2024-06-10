@@ -2,9 +2,15 @@
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 50px;
   .wrap {
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // top: -40px;
+    background: cover;
+    background-image: url(../images/blue2.jpg);
     width: 100%;
     min-height: auto;
-    background-color: rgb(236, 243, 243);
+
 
     .wrap_skills {
       // padding: 20px;
@@ -36,7 +42,11 @@
 
       .ability {
        
-
+        scale:1; opacity:1;
+        animation: fade-in linear forwards;
+        animation-timeline: view();
+       animation-range: 500px;
+       
         .image_wrap_skills {
           max-height: 100%;
           padding-bottom: 20px;
@@ -47,6 +57,7 @@
           margin: auto;
 
           .tools_cover_skills_blue {
+            box-shadow: 4px 4px 10px rgb(77, 71, 71);
             background-color: rgb(191, 226, 255);
             width: 20%;
             margin: 10px;
@@ -89,7 +100,7 @@
           }
 
           .tools_cover_skills_pink {
-
+            box-shadow: 4px 4px 10px rgb(77, 71, 71);
             width: 20%;
             margin: 10px;
             padding: 20px;
@@ -130,6 +141,10 @@
 
 
     }
+  }
+  @keyframes fade-in{
+    to{scale: .6; opacity:0;}
+    
   }
 
 }

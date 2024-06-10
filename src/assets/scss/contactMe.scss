@@ -1,10 +1,16 @@
 .contactMe {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
   min-height: auto;
-  margin-bottom: 50px ;
-  background-color: rgb(196, 202, 255);
-
+  margin-bottom: 50px;
+  //background-color: rgb(196, 202, 255);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // top: -40px;
+  background: cover;
+  background-image: url(../images/blue3.jpg);
+  
 
 
   .title_contact {
@@ -17,13 +23,18 @@
   }
 
   .social_media {
+    scale: 1;
+    opacity: 1;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: 500px;
 
     margin-top: 1px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     // background: linear-gradient(white, rgb(165, 165, 165), white);
-    
+
 
     .write_social {
       color: rgb(0, 0, 0);
@@ -40,22 +51,31 @@
       height: 100px;
       // filter: sez  mjnkm pia(100%);
       // filter:sepia(100%) saturate(600%) hue-rotate(10000deg);
-       filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+      filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+
       //
       // filter: sepia(100%) saturate(500%) hue-rotate(10deg);
       &:hover {
-        width: 120px;
-        height: 120px;
+        scroll-behavior: smooth;
+        transition: 2s;
+        transform: rotatey(360deg);
       }
 
 
     }
 
-    // }
+    @keyframes fade-in {
+      to {
+        scale: .6;
+        opacity: 0;
+      }
+
+    }
 
 
   }
 
 
 }
+
 @import'./responsive/contactRes.scss'
