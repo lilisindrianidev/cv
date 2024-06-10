@@ -23,14 +23,15 @@
 
    
     .cover_aboutme2{
+      overflow: clip
       padding-top: 30px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       scale: 1;
       opacity: 1;
-      // animation: fade-in linear forwards;
-      // animation-timeline: view();
+      animation: fade-in linear forwards;
+      animation-timeline: view();
       animation-range: 500px;
       .title_aboutMe {
        
