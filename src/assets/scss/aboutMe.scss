@@ -29,7 +29,7 @@
       flex-wrap: wrap;
       justify-content: space-around;
       
-     
+    //  
       // nimation: fade-in linear forwards;
       // -webkit-animation: fade-in linear forwards;
       // -moz-animation: fade-in linear forwards;
@@ -39,13 +39,13 @@
       animation-range: 500px;
 
       @keyframes fade-in {
-        0%{
+        from{
           scale: 1;
           opacity: 1;
         }
-        100%{
+        to{
           scale: .6;
-          opacity: 8;
+          opacity: .2;
         }
 
       }
