@@ -38,7 +38,7 @@
       animation-timeline: view();
       animation-range: 500px;
       // animation: leftright 1s linear;
-      animation-fill-mode: forwards;
+      animation-fill-mode: backwards;
       @keyframes fade-on {
        0%{
         scale: 1;
