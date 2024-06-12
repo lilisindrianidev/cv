@@ -15,7 +15,7 @@ class Education extends Component {
             Look at my education stories
           </div>
           <div className="cover_img_edu">
-            <div className="cover_edu_img_hs">
+            <div data-aos="flip-left" className="cover_edu_img_hs hello0">
               <img src={Hs} className="img_hs" />
               <div className="hs"> High school
                 <div className="detail_hs">
@@ -27,7 +27,7 @@ class Education extends Component {
               </div>
 
             </div>
-            <div className="cover_edu_img_uni">
+            <div data-aos="flip-left" className="cover_edu_img_uni hello0">
               <img src={Uni} className="img_uni" />
               <div className="university"> University
                 <div className="detail_uni">

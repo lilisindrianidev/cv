@@ -42,10 +42,10 @@
 
       .ability {
        
-        scale:1; opacity:1;
-        animation: fade-in linear forwards;
-        animation-timeline: view();
-       animation-range: 500px;
+      //   scale:1; opacity:1;
+      //   animation: fade-in linear forwards;
+      //   animation-timeline: view();
+      //  animation-range: 500px;
        
         .image_wrap_skills {
           max-height: 100%;
@@ -142,10 +142,10 @@
 
     }
   }
-  @keyframes fade-in{
-    to{scale: .6; opacity:0;}
+  // @keyframes fade-in{
+  //   to{scale: .6; opacity:0;}
     
-  }
+  // }
 
 }
 @import'./responsive/progRes.scss'

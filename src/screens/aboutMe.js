@@ -1,17 +1,16 @@
-import { Component } from "react";
+import { Component, useEffect } from "react";
 import BookMe from '../assets/images/book.png'
 import Me from '../assets/images/girl2.png'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
-
-class AboutMe extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-
-    }
-  }
-  render() {
-    return (
+const AboutMe =()=>{
+  useEffect(()=>{
+  Aos.init({duration:2000});
+  }, []);
+    return(
+      
+    
       <div id="Ame" className="aboutMe">
 
         <div className="cover_aboutMe">
@@ -34,7 +33,7 @@ class AboutMe extends Component {
             </div>
 
 
-            <div className="cover_me">
+            <div data-aos="flip-left" className="cover_me hello0">
               <img src={Me} className="me" />
             </div>
           </section>
@@ -45,6 +44,6 @@ class AboutMe extends Component {
         </div>
       </div>
     )
-  }
+          
 }
 export default AboutMe

@@ -20,15 +20,15 @@ class AllSCreens extends Component{
       <div >
         <Home/>
         <AboutMe/>
-        {/* <Education/>
+        <Education/>
         
         <Skills/>
         <Framework/>
         <ToolSkills/>
         <Project/>
         {/* <Another/> */}
-        {/* <ContactMe/>
-        <Footer/> */} 
+        <ContactMe/>
+        <Footer/>
       </div>
     )
   }

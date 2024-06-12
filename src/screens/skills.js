@@ -29,7 +29,7 @@ class Skills extends Component {
                 <img src={Pro} className="image_pro"/>
 
               </div> */}
-              <div className="image_wrap_skills">
+              <div data-aos="fade" className="image_wrap_skills fade_in">
                 <div className="tools_cover_skills_pink">
                   <div className="image_cover_skills2">
                     <img src={Java} className="image_skills2" />

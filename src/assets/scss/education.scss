@@ -28,10 +28,10 @@
         height: 400px;
         background-color: rgb(255, 255, 255);
         margin: 20px;
-        scale:1; opacity:1;
-        animation: fade-in linear forwards;
-        animation-timeline: view();
-       animation-range: 500px;
+      //   scale:1; opacity:1;
+      //   animation: fade-in linear forwards;
+      //   animation-timeline: view();
+      //  animation-range: 500px;
        
 
         .img_hs {
@@ -67,10 +67,10 @@
      
       }
 
-      @keyframes fade-in{
-        to{scale: .6; opacity:0;}
+      // @keyframes fade-in{
+      //   to{scale: .6; opacity:0;}
         
-      }
+      // }
 
 
 
