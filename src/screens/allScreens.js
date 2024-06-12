@@ -18,17 +18,17 @@ class AllSCreens extends Component{
   render(){
     return(
       <div >
-        <Home/>
+        {/* <Home/> */}
         <AboutMe/>
-        <Education/>
+        {/* <Education/>
         
         <Skills/>
         <Framework/>
         <ToolSkills/>
         <Project/>
         {/* <Another/> */}
-        <ContactMe/>
-        <Footer/>
+        {/* <ContactMe/>
+        <Footer/> */} 
       </div>
     )
   }
