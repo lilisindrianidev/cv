@@ -34,18 +34,18 @@
       // -webkit-animation: fade-in linear forwards;
       // -moz-animation: fade-in linear forwards;
       // -o-animation: fade-in linear forwards;
-      animation: fade-in linear infinite;
+      animation: fade-on linear forwards;
       animation-timeline: view();
       animation-range: 500px;
 
-      @keyframes fade-in {
-        from{
-          scale: 1;
-          opacity: 1;
-        }
-        to{
+      @keyframes fade-on {
+       0%{
+        scale: 1;
+      opacity: 1;
+       }
+        100%{
           scale: .6;
-          opacity: .2;
+          opacity:0;
         }
 
       }
