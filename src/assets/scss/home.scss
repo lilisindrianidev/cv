@@ -362,11 +362,11 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      scale: 1;
-      opacity: 1;
-      animation: fade-in linear forwards;
-      animation-timeline: view();
-      animation-range: 500px;
+      // scale: 1;
+      // opacity: 1;
+      // animation: fade-in linear forwards;
+      // animation-timeline: view();
+      // animation-range: 500px;
 
       .blue {
 
@@ -658,13 +658,13 @@
 
   }
 
-  @keyframes fade-in {
-    to {
-      scale: .6;
-      opacity: 0;
-    }
+  // @keyframes fade-in {
+  //   to {
+  //     scale: .6;
+  //     opacity: 0;
+  //   }
 
-  }
+  // }
 
 }
 
