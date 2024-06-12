@@ -18,7 +18,7 @@ class AllSCreens extends Component{
   render(){
     return(
       <div >
-        {/* <Home/> */}
+        <Home/>
         <AboutMe/>
         {/* <Education/>
         
