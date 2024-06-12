@@ -34,7 +34,7 @@
       // -webkit-animation: fade-in linear forwards;
       // -moz-animation: fade-in linear forwards;
       // -o-animation: fade-in linear forwards;
-      animation: fade-on linear forwards;
+      animation: fade-on linear infinite;
       animation-timeline: view();
       animation-range: 500px;
 
