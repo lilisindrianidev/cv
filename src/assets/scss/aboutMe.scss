@@ -34,21 +34,22 @@
       // -webkit-animation: fade-in linear forwards;
       // -moz-animation: fade-in linear forwards;
       // -o-animation: fade-in linear forwards;
-      animation: fade-on linear normal backwards;
-      animation-timeline: view();
-      animation-range: 500px;
+      // animation: fade-on linear normal backwards;
+      // animation-timeline: view();
+      // animation-range: 500px;
+      animation: leftright 1s linear;
+      animation-fill-mode: forwards;
+      // @keyframes fade-on {
+      //  0%{
+      //   scale: 1;
+      // opacity: 1;
+      //  }
+      //   100%{
+      //     scale: .6;
+      //     opacity:0;
+      //   }
 
-      @keyframes fade-on {
-       0%{
-        scale: 1;
-      opacity: 1;
-       }
-        100%{
-          scale: .6;
-          opacity:0;
-        }
-
-      }
+      // }
 
       .title_aboutMe {
 
