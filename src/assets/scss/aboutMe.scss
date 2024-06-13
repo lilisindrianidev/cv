@@ -1,7 +1,11 @@
 .aboutMe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:auto;
 
-  width: 100%;
-  margin-bottom: 50px;
+  max-width: 1440px;
+  margin-bottom: 50px !important;
   height: auto;
   background-color: #EC7063;
   margin-top: 100px;

@@ -1,6 +1,10 @@
 @media (min-width: 450px) {
   .footer {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 1440px;
     .cover_footer {
       margin: auto;
       width: 95%;

@@ -1,8 +1,8 @@
 .contactMe {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  width: 100%;
+  max-width: 1440px;
   min-height: auto;
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
   //background-color: rgb(196, 202, 255);
   object-fit: cover;
   background-repeat: no-repeat;
@@ -10,68 +10,73 @@
   // top: -40px;
   background: cover;
   background-image: url(../images/blue3.jpg);
-  
 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
 
-  .title_contact {
-    color: #000000;
-    font-size: 40px;
-    padding: 20px;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 80px;
-  }
+  .wrap_contact {
 
-  .social_media {
-    // scale: 1;
-    // opacity: 1;
-    // animation: fade-in linear forwards;
-    // animation-timeline: view();
-    // animation-range: 500px;
-
-    margin-top: 1px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    // background: linear-gradient(white, rgb(165, 165, 165), white);
-
-
-    .write_social {
-      color: rgb(0, 0, 0);
-      font-size: 20px;
+    .title_contact {
+      color: #000000;
+      font-size: 40px;
+      padding: 20px;
       text-align: center;
       font-weight: bold;
+      margin-bottom: 80px;
     }
 
-    .media_img {
-      // position: absolute;
-      // margin-top: 5px;
-      margin: 40px;
-      width: 100px;
-      height: 100px;
-      // filter: sez  mjnkm pia(100%);
-      // filter:sepia(100%) saturate(600%) hue-rotate(10000deg);
-      filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+    .social_media {
+      // scale: 1;
+      // opacity: 1;
+      // animation: fade-in linear forwards;
+      // animation-timeline: view();
+      // animation-range: 500px;
 
-      //
-      // filter: sepia(100%) saturate(500%) hue-rotate(10deg);
-      &:hover {
-        scroll-behavior: smooth;
-        transition: 2s;
-        transform: rotatey(360deg);
+      margin-top: 1px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      // background: linear-gradient(white, rgb(165, 165, 165), white);
+
+
+      .write_social {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
       }
 
+      .media_img {
+        // position: absolute;
+        // margin-top: 5px;
+        margin: 40px;
+        width: 100px;
+        height: 100px;
+        // filter: sez  mjnkm pia(100%);
+        // filter:sepia(100%) saturate(600%) hue-rotate(10000deg);
+        filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 
+        //
+        // filter: sepia(100%) saturate(500%) hue-rotate(10deg);
+        &:hover {
+          scroll-behavior: smooth;
+          transition: 2s;
+          transform: rotatey(360deg);
+        }
+
+
+      }
+
+      // @keyframes fade-in {
+      //   to {
+      //     scale: .6;
+      //     opacity: 0;
+      //   }
+
+      // }
     }
-
-    // @keyframes fade-in {
-    //   to {
-    //     scale: .6;
-    //     opacity: 0;
-    //   }
-
-    // }
-
 
   }
 

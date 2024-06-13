@@ -25,7 +25,7 @@ class ToolSkills extends Component {
           </div>
 
 
-          <div className="wrap_tools_right ">
+          <div data-aos="fade" className="wrap_tools_right fade_in ">
 
             <div className="wrap_tools_part_grey">
               <div className="wrap_image_tools3">

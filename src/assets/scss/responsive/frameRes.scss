@@ -1,6 +1,9 @@
 @media (max-width: 1440px) {
   .framework {
-    // background-color: white;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
     width: 100%;
     min-height: auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

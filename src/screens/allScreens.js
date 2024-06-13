@@ -10,6 +10,7 @@ import ContactMe from './contactMe.js';
 import Footer from './footer.js';
 import ToolSkills from './toolsSkills.js';
 import Project from './project.js';
+import Menu from '../components/menu.js';
 
 class AllSCreens extends Component{
   constructor(props){
@@ -18,6 +19,7 @@ class AllSCreens extends Component{
   render(){
     return(
       <div >
+        <Menu/>
         <Home/>
         <AboutMe/>
         <Education/>

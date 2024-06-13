@@ -1,12 +1,16 @@
 @media (max-width: 1440px) {
   .aboutMe {
- 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+
     .cover_aboutMe {
   
       // position:absolute;
       align-items: center;
       margin: 0px auto;
-      width: 100%;
+      max-width: 1440px;
       // height: 100vh;
       // border-radius: 50px;
       // background-color: #5DADE2;

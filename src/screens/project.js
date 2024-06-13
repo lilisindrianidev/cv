@@ -10,7 +10,7 @@ class Project extends Component {
       <div id="Project" className="project">
         <div className="cover_pro">
           <div className="title_pro">My Project</div>
-          <div className="cover_inside_pro">
+          <div data-aos="fade" className="cover_inside_pro fade_in">
             <div className="cover_inside_pro2">
               <div className="cover_pro_image">
                 <img src={Desa} className="pro_image" />

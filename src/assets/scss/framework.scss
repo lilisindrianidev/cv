@@ -1,14 +1,20 @@
 .framework {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+
   background-color: rgb(236, 243, 243);
-  width: 100%;
+  max-width: 1440px;
   min-height: auto;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   object-fit: contain;
   background: cover;
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
+  padding-bottom: 50px;
 
   .cover_frame {
-    max-width: 100%;
+    width: 100%;
     margin: auto;
 
     .title_frame {
@@ -34,11 +40,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      scale: 1;
-      opacity: 1;
-      animation: fade-in linear forwards;
-      animation-timeline: view();
-      animation-range: 500px;
+
 
       // float: right;
       // justify-content: center;
@@ -121,13 +123,13 @@
 
     }
 
-    @keyframes fade-in {
-      to {
-        scale: .6;
-        opacity: 0;
-      }
+    // @keyframes fade-in {
+    //   to {
+    //     scale: .6;
+    //     opacity: 0;
+    //   }
 
-    }
+    // }
   }
 }
 

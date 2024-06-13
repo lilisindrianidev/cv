@@ -1,12 +1,16 @@
 .education {
-  //background-color:#EE696B #523A78;
-  // background-image: linear-gradient(to right, #faa287 ,#709e34, rgb(102, 102, 37));
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+
+  max-width: 1440px;
   min-height: auto;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
 
   .edu_wrap {
+    width: 100%  ;
     .edu_title {
       color: #000000;
       font-size: 40px;
@@ -28,11 +32,11 @@
         height: 400px;
         background-color: rgb(255, 255, 255);
         margin: 20px;
-      //   scale:1; opacity:1;
-      //   animation: fade-in linear forwards;
-      //   animation-timeline: view();
-      //  animation-range: 500px;
-       
+        //   scale:1; opacity:1;
+        //   animation: fade-in linear forwards;
+        //   animation-timeline: view();
+        //  animation-range: 500px;
+
 
         .img_hs {
           display: flex;
@@ -64,12 +68,12 @@
         }
 
 
-     
+
       }
 
       // @keyframes fade-in{
       //   to{scale: .6; opacity:0;}
-        
+
       // }
 
 
@@ -82,11 +86,8 @@
         height: 400px;
         background-color: rgb(255, 255, 255);
         margin: 20px;
-        scale:1; opacity:1;
-        animation: fade-in linear forwards;
-        animation-timeline: view();
-       animation-range: 500px;
-       
+        //  
+
 
         .img_uni {
           display: flex;

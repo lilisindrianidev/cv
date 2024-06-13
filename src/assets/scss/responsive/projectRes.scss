@@ -1,6 +1,10 @@
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
   .project {
-   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 1440px;
     .cover_pro {
       
       margin: auto;
@@ -19,32 +23,21 @@
             .pro_image { 
               
               &:hover{
-                animation:  fill-2 3s infinite alternate, colors 5s infinite alternate;
+                // animation:  fill-2 3s infinite alternate, colors 5s infinite alternate;
               }
             }
             .pro_img_write{
              
               &:hover{
-                animation:  fill-2 3s infinite alternate, colors 5s infinite alternate;
-                color: transparent;
-                filter: brightness(100%);
+                // animation:  fill-2 3s infinite alternate, colors 5s infinite alternate;
+                // color: transparent;
+                // filter: brightness(100%);
               }
             }
             &:hover{
-              animation:  fill-2 3s infinite alternate, colors 5s infinite alternate;
+              // animation:  fill-2 3s infinite alternate, colors 5s infinite alternate;
             }
-            @keyframes fill-2 {
-              0%   { width: 0; }
-              33%  { width: 90px;}
-              66%  { width: 70px;}
-              100% { width: 136px; }
-            }
-            @keyframes colors {
-              0% { background-color: #5a5a5a;}
-              50% { background-color: #3a3;}
-              100% { background-color: #6a6a6a;}
-            }
-           
+          
           }
          
   

@@ -1,5 +1,11 @@
 @media (max-width: 1440px) {
   .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+
+    max-width: 1440px;
     font-family: Verdana, sans-serif;
     .wrap {
      

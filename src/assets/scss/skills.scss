@@ -1,14 +1,22 @@
 .skills {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 50px !important;
+  max-width: 1440px;
+
   .wrap {
+    width: 100%;
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
     // top: -40px;
     background: cover;
     background-image: url(../images/blue2.jpg);
-    width: 100%;
+    // width: 100%;
     min-height: auto;
 
 
@@ -41,12 +49,12 @@
 
 
       .ability {
-       
-      //   scale:1; opacity:1;
-      //   animation: fade-in linear forwards;
-      //   animation-timeline: view();
-      //  animation-range: 500px;
-       
+
+        //   scale:1; opacity:1;
+        //   animation: fade-in linear forwards;
+        //   animation-timeline: view();
+        //  animation-range: 500px;
+
         .image_wrap_skills {
           max-height: 100%;
           padding-bottom: 20px;
@@ -112,6 +120,7 @@
               width: 70px;
               height: 100px;
               margin: auto;
+
               .image_skills2 {
                 width: 70px;
 
@@ -142,10 +151,12 @@
 
     }
   }
+
   // @keyframes fade-in{
   //   to{scale: .6; opacity:0;}
-    
+
   // }
 
 }
+
 @import'./responsive/progRes.scss'

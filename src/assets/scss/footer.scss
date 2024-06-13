@@ -1,13 +1,16 @@
 .footer {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: block;
-  // background-color: #495467;
+  // display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
   color: rgb(175 180 220);
   font-size: 0.9em;
   margin-top: -1px;
   padding-top: 32px;
   // padding-bottom: 32px;
- 
+  max-width: 1440px;
 
   .cover_footer {
     margin: auto;
