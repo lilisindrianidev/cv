@@ -82,7 +82,7 @@
     transition-property: opacity,transform;
   }
   .hello9{
-    @include fade_in(.4s);
+    @include fade_in(.2s);
   }
 
  
