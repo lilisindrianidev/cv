@@ -4,13 +4,13 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    max-width: 1440px;
+   
     .cover_footer {
       margin: auto;
       width: 95%;
       padding-top: 50px;
       padding-bottom: 50px;
-  
+      max-width: 1440px;
       font-size: 25px;
       color: rgb(0, 0, 0);
       .write_add {

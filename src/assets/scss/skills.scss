@@ -6,19 +6,19 @@
 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 50px !important;
-  max-width: 1440px;
-
+  
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // top: -40px;
+  background: cover;
+  background-image: url(../images/blue2.jpg);
+  // width: 100%;
+  min-height: auto;
   .wrap {
+    max-width: 1440px !important;
+    
     width: 100%;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    // top: -40px;
-    background: cover;
-    background-image: url(../images/blue2.jpg);
-    // width: 100%;
-    min-height: auto;
-
 
     .wrap_skills {
       // padding: 20px;

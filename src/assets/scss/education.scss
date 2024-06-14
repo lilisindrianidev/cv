@@ -4,13 +4,13 @@
   justify-content: center;
   margin: auto;
 
-  max-width: 1440px;
+  
   min-height: auto;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 50px !important;
 
   .edu_wrap {
-    width: 100%  ;
+    max-width: 1440px;
     .edu_title {
       color: #000000;
       font-size: 40px;

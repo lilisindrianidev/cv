@@ -1,7 +1,7 @@
 .footer {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   // display: block;
-  display: flex;
+   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
@@ -10,9 +10,10 @@
   margin-top: -1px;
   padding-top: 32px;
   // padding-bottom: 32px;
-  max-width: 1440px;
 
   .cover_footer {
+    max-width: 1440px;
+
     margin: auto;
     width: 95%;
     padding-top: 50px;
@@ -101,21 +102,21 @@
         font-size: 12px;
       }
     }
-   
+    .real_footer{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .write_real_footer{
+        color: #000000;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 700;
+        padding-bottom: 25px;
+      }
+    } 
 
   }
-  .real_footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    .write_real_footer{
-      color: #000000;
-      font-size: 20px;
-      text-align: center;
-      font-weight: 700;
-      padding-bottom: 25px;
-    }
-  }
+  
 
 
 }

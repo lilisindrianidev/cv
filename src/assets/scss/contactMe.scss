@@ -1,6 +1,6 @@
 .contactMe {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  max-width: 1440px;
+ 
   min-height: auto;
   margin-bottom: 50px !important;
   //background-color: rgb(196, 202, 255);
@@ -17,7 +17,7 @@
   margin: auto;
 
   .wrap_contact {
-
+    max-width: 1440px;
     .title_contact {
       color: #000000;
       font-size: 40px;

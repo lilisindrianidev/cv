@@ -37,14 +37,14 @@ class Footer extends Component {
             </div>
 
           </div>
-
-        </div>
-
-        <div className="real_footer">
-          <div className="write_real_footer">
-            copyright&copy; 2024 Lilis Indriani
+          <div className="real_footer">
+            <div className="write_real_footer">
+              copyright&copy; 2024 Lilis Indriani
+            </div>
           </div>
+
         </div>
+
 
       </div>
     )
