@@ -1,5 +1,6 @@
 import { Component } from "react";
 import Logo from '../assets/images/logo.png'
+import '../assets/scss/allPage.scss';
 
 class Menu extends Component {
   render() {

@@ -40,7 +40,7 @@
   .hello2{
     @include slide_down(.4s);
   }
-////
+
   @keyframes slide_img {
     0%{
       transform:  rotate(100%);
@@ -63,27 +63,6 @@
     
   }
 
-  /////
-  @keyframes fade_in {
-    0%{
-        transform: translateY(100%);
-        opacity: 0;
-    }
-    100%{
-     
-      transform: translateY(80deg);
-     
-      opacity: 1;
-   
-    }
-  }
-  @mixin fade_in($duration){
-    animation: slide_down $duration cubic-bezier(.445,.05,.55,.95) ;
-    transition-property: opacity,transform;
-  }
-  .hello9{
-    @include fade_in(.2s);
-  }
 
  
          

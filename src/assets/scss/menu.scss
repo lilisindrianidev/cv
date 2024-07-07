@@ -33,8 +33,7 @@
         object-fit: cover;
       }
     }
-
-
+    
     .cover_menu1 {
 
       align-items: center;
@@ -49,7 +48,6 @@
         display: flex;
         flex-wrap: wrap;
         font-size: 20px;
-
 
         .writeM1 {
 
@@ -66,9 +64,12 @@
             font-weight: bold;
           }
         }
-
       }
-
+      .hello{
+        width: 20px;
+        height: 30px;
+        // background-color: adjust-color($color: #000000, $red: 1, $green: 2, $blue: 3, $hue: 0, $saturation: 0%, $lightness: 0%, $alpha: 1.0);
+      }
       .write2_menu1 {
         align-items: center;
         display: flex;
@@ -89,7 +90,6 @@
             font-weight: bold;
           }
         }
-
       }
     }
   }
