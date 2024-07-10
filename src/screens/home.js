@@ -25,7 +25,7 @@ class Home extends Component {
       <div id="home" className="home">
         <div className='first_cover'>
           <div className='home_cover'>
-            <Burger />
+           
             {/* <Contact /> */}
             <div className='cover_me'>
               <div className='write_me'>

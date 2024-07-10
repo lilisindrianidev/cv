@@ -1,14 +1,18 @@
 import { Component } from "react";
 import Logo from '../assets/images/logo.png'
 import '../assets/scss/allPage.scss';
+import Burgers from "./burger";
 
 class Menu extends Component {
   render() {
     return (
       <div className='menu1'>
         <div className="cover_menu">
-          <div className='logo'>
-            <img src={Logo} className='logo_img' />
+          <div className="cover_logo">
+            <div className='logo'>
+              <img src={Logo} className='logo_img' />
+            </div>
+            <Burgers />
           </div>
 
           <div className='cover_menu1'>
